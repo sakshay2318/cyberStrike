@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP Proxy</title>
+</head>
+<body>
+    <h1>HTTP Proxy</h1>
+    <form action="/proxy" method="get">
+        <label for="url">Enter URL to Proxy:</label>
+        <input type="text" id="url" name="url" required>
+        <button type="submit">Proxy Request</button>
+    </form>
+    <div id="response"></div>
+    <script>
+        document.querySelector('form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const url = document.getElementById('url').value;
+            fetch(`/proxy?url=${encodeURIComponent(url)}`)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('response').innerHTML = `<pre>${data}</pre>`;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('response').innerHTML = `<pre>An error occurred: ${error}</pre>`;
+                });
+        });
+    </script>
+</body>
+</html>
