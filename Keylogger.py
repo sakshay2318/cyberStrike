@@ -50,3 +50,5 @@ class KeyLogger:
 
     def __del__(self):
         self.listener.stop()
+
+
