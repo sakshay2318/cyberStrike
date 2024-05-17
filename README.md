@@ -1,7 +1,7 @@
 # RED TEAM WEB-EXPLOIT TOOLKIT
 
-The cyberStrike repository is a comprehensive toolkit designed for conducting simulated cyber attacks, specifically tailored for red team operations. 
-It encompasses various scripts and tools aimed at exploiting vulnerabilities in web applications, networks, and systems.
+The cyberStrike repository is a comprehensive toolkit designed for conducting simulated cyber-attacks, specifically tailored for red team operations. 
+It encompasses various scripts and tools to exploit vulnerabilities in web applications, networks, and systems.
 
 ## Overview
 
