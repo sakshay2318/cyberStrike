@@ -18,22 +18,22 @@ body{
 
 }
 
- .navbar-nav li {
+.navbar-nav li {
     font-size: 20px;
     font-weight: 400;
-    transition: transform 0.2s; 
+    transition: transform 0.2s;
 }
 
 .navbar-nav a {
     color: white;
-    transition: color 0.2s; 
+    transition: color 0.2s;
 }
 
 
 
 
 .navbar-nav a:hover {
-    color: #e63d59; 
+    color: #e63d59;
     transform: scale(1.1);
 }
 
@@ -41,7 +41,7 @@ input{
     height: 7.2vh;
     outline:none;
     border-radius: 4px;
-    width: 660px; 
+    width: 660px;
 
 
 }
@@ -84,8 +84,6 @@ input{
     font-size: 26px;
     text-align: center;
     margin-top: 8px;
-
- 
 }
 
 #prevent-card{
@@ -101,15 +99,15 @@ input{
     font-size: 30px;
 }
 .resulttext{
-    text-align: center; 
-    font-size: 40px; 
-    color: darkred; 
+    text-align: center;
+    font-size: 40px;
+    color: darkred;
     padding: 8px;
 }
 
 .mainresulttext{
-    padding: 14px; 
-    text-align: justify; 
+    padding: 14px;
+    text-align: justify;
     margin-top: -30px;
 
 }

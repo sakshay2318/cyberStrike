@@ -3,28 +3,51 @@ from scapy.all import sniff, IP, TCP, UDP, Raw, DNS
 import socket
 import time
 from network_scanner import main
-import datetime
+from datetime import datetime
 import re
 from bs4 import BeautifulSoup
 import requests
 from sqlinjection import scan_sql_injection
-from urllib.parse import unquote    
+from urllib.parse import unquote
 from apiendpoint import analyze_endpoints
 from openredirect import is_open_redirect
 from crosssitescriptting import crosssitescripting_result
 from securityheaders import check_http_security_headers
 from securitymisconfig import check_security_misconfiguration
 from tls import check_tls_security
-import time 
+import time
 import requests
-import threading
 from collections import deque
 import pynput
 import pynput.keyboard
 from urllib.parse import urljoin
+from flask_socketio import SocketIO
+from pynput import keyboard
+import logging
 
 
 app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+@app.route("/network_scanner", methods=['GET', 'POST'])
+def network_scanner():
+    if request.method == 'GET':
+        return render_template('network_scanner.html')
+    if request.method == 'POST':
+        host = request.form.get("domaininput")
+        try:
+            start_time = time.time()
+            if host == 'localhost' or host == '127.0.0.1':
+                return render_template('network_scanner.html', invalid_domain="Invalid Domain")
+            host_ip = socket.gethostbyname(host)
+            port = main(host_ip)
+            total_time = time.time() - start_time
+        except:
+            return render_template("network_scanner.html", invalid_domain="Invalid Domain")
+        return render_template("network_scanner.html", port=port, port_len=len(port), total_time=total_time, host_ip=host_ip, host_name=host)
 
 ALLOWED_INTERFACES = ['Wi-Fi', 'Ethernet', 'WiFi']
 selected_interface = None
@@ -87,11 +110,8 @@ def packet_callback(packet):
     if capture_active:
         packet_time = packet.time
         packet_time_formatted = datetime.fromtimestamp(packet_time).strftime('%Y-%m-%d %H:%M:%S')
-
         packet_count = len(captured_packets) + 1
-
         packet_length = len(packet)
-
         packet_details = {
             "Packet Number": packet_count,
             "Time": packet_time_formatted,
@@ -108,12 +128,10 @@ def packet_callback(packet):
         if IP in packet:
             packet_details["Source IP"] = packet[IP].src
             packet_details["Destination IP"] = packet[IP].dst
-
             if TCP in packet:
                 packet_details["Protocol"] = "TCP"
                 packet_details["Source Port"] = packet[TCP].sport
                 packet_details["Destination Port"] = packet[TCP].dport
-
                 if packet[TCP].dport in [80, 443]:
                     if Raw in packet:
                         load = packet.getlayer(Raw).load.decode(errors='ignore')
@@ -126,7 +144,6 @@ def packet_callback(packet):
                 packet_details["Protocol"] = "UDP"
                 packet_details["Source Port"] = packet[UDP].sport
                 packet_details["Destination Port"] = packet[UDP].dport
-
                 if packet[UDP].dport == 53:
                     if DNS in packet:
                         packet_details["Data"] = packet.getlayer(DNS).qd.qname.decode()
@@ -139,28 +156,7 @@ def packet_callback(packet):
                     packet_details["Detected Credentials"] = credentials
 
         captured_packets.append(packet_details)
-
-@app.route('/')
-def home():
-    return render_template('index.html')
-
-@app.route("/network_scanner", methods=['GET', 'POST'])
-def network_scanner():
-    if request.method == 'GET':
-        return render_template('network_scanner.html')
-    if request.method == 'POST':
-        host = request.form.get("domaininput")
-        try:
-            start_time = time.time()
-            if host == 'localhost' or host == '127.0.0.1':
-                return render_template('network_scanner.html', invalid_domain="Invalid Domain")
-            host_ip = socket.gethostbyname(host)
-            port = main(host_ip)
-            total_time = time.time() - start_time
-        except:
-            return render_template("network_scanner.html", invalid_domain="Invalid Domain")
-        return render_template("network_scanner.html", port=port, port_len=len(port), total_time=total_time, host_ip=host_ip, host_name=host)
-
+        
 @app.route('/packet_sniffer', methods=['GET', 'POST'])
 def packet_sniffer():
     if request.method == 'POST':
@@ -235,9 +231,25 @@ def proxy(path):
     
     return Response(response.content, response.status_code, headers)
 
-@app.route('/file_interceptor')
-def file_interceptor():
-    return render_template('file_interceptor.html')
+
+@app.route('/ip_tracker', methods=['GET', 'POST'])
+def ip_tracker():
+        if request.method == 'POST':
+            ip_address = request.form.get('ip_address')
+            url = f"http://ip-api.com/json/{ip_address}"
+            response = requests.get(url)
+            data = response.json()
+            if data["status"] == "success":
+                country = data["country"]
+                city = data["city"]
+                isp = data["isp"]
+                longitude = data["lon"]
+                latitude = data["lat"]
+                zip = data["zip"]
+                region = data["regionName"]
+                return render_template('ip_tracker.html', is_fetched=True, ip_add=ip_address, country=country, city=city, isp=isp, longitude=longitude, latitude=latitude, zip=zip, region=region)
+        return render_template("ip_tracker.html")
+
 
 
 @app.route('/redirect_url_scanner', methods=['GET', 'POST'])
@@ -263,9 +275,6 @@ def redirect_url_scanner():
         return render_template('redirect_url_scanner.html', is_fetched=False)
 
 
-from flask_socketio import SocketIO
-from pynput import keyboard
-import logging   
 socketio = SocketIO(app)
 file_log = "log.txt"
 logging.basicConfig(filename=file_log, level=logging.DEBUG, format='%(message)s')
@@ -290,7 +299,7 @@ def malware():
     import threading
     listener_thread = threading.Thread(target=start_listener)
     listener_thread.start()
-    return render_template('malware.html')        
+    return render_template('malware.html')
 
 def check_directory(url):
     try:
@@ -395,11 +404,11 @@ def getinputcrosssitescriptting():
 
 @app.route('/securityheaders')
 def securityheaders():
- return render_template('securityheaders.html')
+    return render_template('securityheaders.html')
 
 @app.route('/getinput_SecurityHeaders', methods = ['POST'])
 def getinput_SecurityHeaders():
-     if request.method == 'POST':
+    if request.method == 'POST':
         user_input = request.form.get('url')
         if user_input:
             headers_results = check_http_security_headers(user_input)
@@ -414,17 +423,15 @@ def securitymisconfig():
 @app.route('/securitymisconfiginput', methods = ['POST'])
 def securitymisconfiginput():
     if request.method == 'POST':
-     user_input = request.form.get('url')
-     if(user_input):
-         securitymisconfig_result = check_security_misconfiguration(user_input)
-         return render_template('securitymisconfig.html', result_securitymisconfig=securitymisconfig_result)
-     else:
-         return ' No Input Found', 404
-     
-    
+        user_input = request.form.get('url')
+        if(user_input):
+            securitymisconfig_result = check_security_misconfiguration(user_input)
+            return render_template('securitymisconfig.html', result_securitymisconfig=securitymisconfig_result)
+        else:
+            return ' No Input Found', 404
 @app.route('/tls')
 def tls():
-  return render_template('tls.html')
+    return render_template('tls.html')
 
 @app.route('/tlsinput',  methods = ['POST'])
 def tlsinput():
@@ -434,7 +441,7 @@ def tlsinput():
             tls_result = check_tls_security(user_input)
             return render_template('tls.html', result_tls = tls_result )
     else:
-         return ' No Input Found', 404
+        return ' No Input Found', 404
 
 if __name__ == '__main__':
     app.run(debug=True)

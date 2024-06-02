@@ -7,16 +7,19 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            background-color: #3DD8FC;
+            background-image: url('/static/images/hero.jpg'); /* Replace with your background image */
+            background-size: cover; /* Ensure the image covers the whole background */
+            background-position: center; /* Center the image */
+            background-attachment: fixed;
         }
         h1 {
             text-align: center;
-            padding: 20px;
-            background-color: #333;
+            padding: 0px;
+            background-color: ;
             color: #fff;
+            font-size: 45px;
         }
         .flex-container {
             display: flex;
@@ -25,62 +28,97 @@
             padding: 20px;
         }
         .container {
-          width: 200px;
-          height: 100px;
-          border: 1px solid #333;
-          margin: 10px;
-          padding: 20px;
-          text-align: center;
-          background-color: #fff;
-          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-          transition: 0.3s;
-          border-radius: 10px; /* Rounded corners for a softer look */
-          display: flex; /* Use flexbox for content alignment */
-          flex-direction: column; /* Stack content vertically */
-          justify-content: center; /* Center content vertically */
-          align-items: center; /* Center content horizontally */
-          cursor: pointer; /* Change cursor to pointer on hover */
-      }
-      .container:hover {
-          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-          transform: scale(1.05); /* Slightly enlarge on hover */
-      }
-      .container a {
-          text-decoration: none;
-          color: #333;
-          font-size: 18px;
-          transition: color 0.3s; /* Smooth transition for color change */
-      }
-      .container a:hover {
-          color: #007BFF; /* Change link color on hover */
-      }      
+            width: 200px;
+            border: 1px solid #333;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            border-radius: 10px; /* Rounded corners for a softer look */
+            display: flex; /* Use flexbox for content alignment */
+            flex-direction: column; /* Stack content vertically */
+            justify-content: center; /* Center content vertically */
+            align-items: center; /* Center content horizontally */
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }
+        .container:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            transform: scale(1.05); /* Slightly enlarge on hover */
+        }
+        .container a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            transition: color 0.3s; /* Smooth transition for color change */
+        }
+        .container a:hover {
+            color: #007BFF; /* Change link color on hover */
+        }
+        .container img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px; /* Rounded corners for images */
+            margin-bottom: 10px;
+        }
+        .container h2 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .container p {
+            font-size: 14px;
+            color: #666;
+        }
     </style>
 </head>
 <body>
-    <h1>Web Attack Simulation</h1>
+    <h1>Red Team Exploit Toolkit</h1>
     <div class="flex-container">
         <div class="container">
-            <a href="{{ url_for('network_scanner') }}">Network Scanner</a>
+            <img src="/static/images/network_scanner.png" alt="Network Scanner">
+            <a href="{{ url_for('network_scanner') }}">
+            <h2>Network Scanner</h2>
+            <p>Scan and discover network devices and services.</p></a>
         </div>
         <div class="container">
-            <a href="{{ url_for('packet_sniffer') }}">Packet Sniffer</a>
+            <img src="/static/images/packet_sniffer.png" alt="Packet Sniffer">
+            <a href="{{ url_for('packet_sniffer') }}">
+            <h2>Packet Sniffer</h2>
+            <p>Capture and analyze network traffic in real time.</p></a>
         </div>
         <div class="container">
-            <a href="{{ url_for('redirect_url_scanner') }}">Redirect Url Scanner</a>
+            <img src="/static/images/redirect.png" alt="Redirect URL Scanner">
+            <a href="{{ url_for('redirect_url_scanner') }}">
+            <h2>Redirect URL Scanner</h2>
+            <p>Identify and analyze URL redirects.</p></a>
         </div>
         <div class="container">
-            <a href="{{ url_for('file_interceptor') }}">file_interceptor</a>
+            <img src="/static/images/ip_tracker.jpg" alt="IP Tracker">
+            <a href="{{ url_for('ip_tracker') }}">
+            <h2>IP Tracker</h2>
+            <p>Track and locate IP addresses.</p></a>
         </div>
     </div>
     <div class="flex-container">
         <div class="container">
-            <a href="{{ url_for('malware') }}">Malware</a>
+            <img src="/static/images/keylogger.jpeg" alt="Malware">
+            <a href="{{ url_for('malware') }}">
+            <h2>Malware</h2>
+            <p>Create and deploy malicious software.</p></a>
         </div>
         <div class="container">
-            <a href="{{ url_for('web_application_hacking') }}">Web Application Hacking</a>
+            <img src="/static/images/hacking-web-applications.png" alt="Web Application Hacking">
+            <a href="{{ url_for('web_application_hacking') }}">
+            <h2>Web Application Hacking</h2>
+            <p>Explore vulnerabilities in web applications.</p></a>
         </div>
         <div class="container">
-            <a href="{{ url_for('vulnerability_scanner') }}">Vulnerability Scanner</a>
+            <img src="/static/images/vuln-scanning.png" alt="Vulnerability Scanner">
+            <a href="{{ url_for('vulnerability_scanner') }}">
+            <h2>Vulnerability Scanner</h2>
+            <p>Scan for vulnerabilities in systems and applications.</p></a>
         </div>
     </div>
 </body>

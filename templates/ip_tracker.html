@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IP Address Tracker</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: none;
+        }
+        .card-header {
+            background-color: #007bff;
+            color: white;
+        }
+        .form-control {
+            border-radius: 0.25rem;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        {% if is_fetched %}
+            <div class="card">
+                <div class="card-header">
+                    <h2>IP Address Information</h2>
+                </div>
+                <div class="card-body">
+                    <p><strong>IP Address:</strong> {{ ip_add }}</p>
+                    <p><strong>Country:</strong> {{ country }}</p>
+                    <p><strong>City:</strong> {{ city }}</p>
+                    <p><strong>ISP:</strong> {{ isp }}</p>
+                    <p><strong>Longitude:</strong> {{ longitude }}</p>
+                    <p><strong>Latitude:</strong> {{ latitude }}</p>
+                    <p><strong>ZIP Code:</strong> {{ zip }}</p>
+                    <p><strong>Region:</strong> {{ region }}</p>
+                </div>
+            </div>
+        {% else %}
+            <div class="card">
+                <div class="card-header">
+                    <h2>Track IP Address</h2>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="form-group">
+                            <label for="ip_address">Enter IP Address:</label>
+                            <input type="text" class="form-control" id="ip_address" name="ip_address">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Track IP</button>
+                    </form>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+    
