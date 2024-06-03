@@ -50353,3 +50353,791 @@ https://www.amazon.in:443 "GET / HTTP/1.1" 503 None
 127.0.0.1 - - [02/Jun/2024 17:48:04] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
 127.0.0.1 - - [02/Jun/2024 17:48:04] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
 127.0.0.1 - - [02/Jun/2024 17:48:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-242-608
+127.0.0.1 - - [03/Jun/2024 11:40:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/network_scanner.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/network_scanner.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/packet_sniffer.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/packet_sniffer.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/ip_tracker.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/keylogger.jpeg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/redirect.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/hacking-web-applications.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/vuln-scanning.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/redirect.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/ip_tracker.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/keylogger.jpeg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/hacking-web-applications.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[36mGET /static/images/vuln-scanning.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:40:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:40:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:41:10] "GET /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:41:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:41:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:41:17] "GET /vulnerability_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:41:17] "[36mGET /static/css/sqlinjection.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:41:17] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:41:17] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:41:18] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:41:42] "GET /vulnerability_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:41:42] "[36mGET /static/css/sqlinjection.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:41:42] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:41:42] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:41:59] "GET /apiendipoint HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:41:59] "GET /static/css/apiendpoint.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:41:59] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:41:59] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:41:59] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:43:55] "GET /securitymisconfig HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:43:55] "GET /static/css/securitymisconfig.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:43:55] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:43:55] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:43:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:47:29] "GET /securitymisconfig HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:47:29] "[36mGET /static/css/securitymisconfig.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:47:29] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:47:30] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:47:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:47:31] "[35m[1mGET /apiendipoint HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:47:31] "GET /apiendipoint?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:47:31] "GET /apiendipoint?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:47:31] "GET /apiendipoint?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:47:31] "[36mGET /apiendipoint?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:47:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:47:35] "[35m[1mGET /apiendipoint HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:47:35] "[36mGET /apiendipoint?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:47:35] "[36mGET /apiendipoint?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:47:35] "[36mGET /apiendipoint?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:47:36] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:47:57] "GET /securitymisconfig HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:47:57] "[36mGET /static/css/securitymisconfig.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:47:57] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:47:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:47:58] "GET /securitymisconfig HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:47:58] "[36mGET /static/css/securitymisconfig.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:47:58] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:47:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:47:58] "GET /securitymisconfig HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:47:58] "[36mGET /static/css/securitymisconfig.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:47:58] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:47:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:47:58] "GET /securitymisconfig HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:47:58] "[36mGET /static/css/securitymisconfig.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:47:58] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:47:59] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:48:01] "GET /openredirect HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:48:01] "GET /static/css/openredirect.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:48:01] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:48:01] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:48:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:48:03] "GET /vulnerability_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:48:03] "[36mGET /static/css/sqlinjection.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:48:03] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:48:03] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:48:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:48:04] "[35m[1mGET /tls HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:48:04] "GET /tls?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:48:04] "GET /tls?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:48:04] "GET /tls?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:48:04] "[36mGET /tls?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:48:12] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:06] "GET /apiendipoint HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:49:06] "[36mGET /static/css/apiendpoint.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:49:06] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:06] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:49:06] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:07] "GET /openredirect HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:49:07] "[36mGET /static/css/openredirect.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:49:07] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:07] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:49:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:08] "GET /vulnerability_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:49:08] "[36mGET /static/css/sqlinjection.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:49:08] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:08] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:10] "GET /tls HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:49:10] "GET /static/css/tls.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:49:10] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:10] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:49:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:11] "GET /crosssitescripting HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:49:11] "GET /static/css/crosssitescriptting.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:49:11] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:11] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:49:11] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:12] "GET /securityheaders HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:49:12] "GET /static/css/securityheaders.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:49:12] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:12] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:49:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:14] "GET /securitymisconfig HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:49:14] "[36mGET /static/css/securitymisconfig.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:49:14] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:14] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:49:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:48] "GET /securitymisconfig HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:49:48] "[36mGET /static/css/securitymisconfig.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:49:48] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:48] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:49:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:49:49] "GET /tls HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:49:49] "[36mGET /static/css/tls.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:49:50] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:49:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:51:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:51:14] "[36mGET /static/images/network_scanner.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:51:14] "[36mGET /static/images/packet_sniffer.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:51:14] "[36mGET /static/images/redirect.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:51:14] "[36mGET /static/images/ip_tracker.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:51:14] "[36mGET /static/images/keylogger.jpeg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:51:14] "[36mGET /static/images/hacking-web-applications.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:51:14] "[36mGET /static/images/vuln-scanning.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:51:14] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:51:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:52:04] "GET /vulnerability_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:52:04] "[36mGET /static/css/sqlinjection.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:52:04] "[35m[1mGET /static//images/logo.png HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:52:04] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:52:04] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:52:08] "GET /tls HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:52:08] "[36mGET /static/css/tls.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:52:09] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:52:09] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:52:57] "GET /tls HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:52:57] "[36mGET /static/css/tls.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:52:57] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:52:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:54:43] "GET /tls HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:54:43] "[36mGET /static/css/tls.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:43] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:43] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:54:43] "GET /tls HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:54:43] "[36mGET /static/css/tls.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:43] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:43] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:54:44] "GET /tls HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:54:44] "[36mGET /static/css/tls.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:54:44] "GET /apiendipoint HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:54:44] "[36mGET /static/css/apiendpoint.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:45] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:54:47] "GET /openredirect HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:54:47] "[36mGET /static/css/openredirect.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:47] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:54:48] "GET /tls HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:54:49] "[36mGET /static/css/tls.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:54:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:54:49] "[36mGET /static/images/packet_sniffer.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:49] "[36mGET /static/images/network_scanner.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:49] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:49] "[36mGET /static/images/redirect.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:49] "[36mGET /static/images/ip_tracker.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:49] "[36mGET /static/images/keylogger.jpeg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:49] "[36mGET /static/images/vuln-scanning.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:49] "[36mGET /static/images/hacking-web-applications.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 11:54:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:58:18] "GET /ip_tracker HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:58:18] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:58:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:58:56] "GET /web_application_hacking HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:58:56] "GET /static/css/web_application_hacking.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:58:56] "GET /static/css/col.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 11:58:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 11:58:59] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:57:29] "GET /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:57:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:57:47] "POST /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:57:47] "POST /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:57:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:58:09] "POST /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:09] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:58:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:58:15] "GET /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:58:19] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:58:20] "GET /packet_sniffer HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:21] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:21] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:58:22] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:23] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:24] "GET /select_interface/Wi-Fi HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:25] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:26] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:27] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:28] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:29] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:30] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:31] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:32] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:33] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:34] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:35] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:36] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:37] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:38] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:39] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:58:43] "GET /packet_sniffer HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:43] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:43] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:58:44] "GET /stop_capture HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:45] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:45] "GET /clear_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:46] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:47] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:58:49] "GET /redirect_url_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Starting new HTTPS connection (1): www.amazon.in:443
+https://www.amazon.in:443 "GET / HTTP/1.1" 200 None
+127.0.0.1 - - [03/Jun/2024 12:58:54] "POST /redirect_url_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:58:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:59:05] "GET /redirect_url_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:59:05] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:59:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:59:08] "GET /ip_tracker HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:59:08] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Starting new HTTP connection (1): ip-api.com:80
+http://ip-api.com:80 "GET /json/172.168.1.2 HTTP/1.1" 200 309
+127.0.0.1 - - [03/Jun/2024 12:59:11] "POST /ip_tracker HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:59:11] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:59:17] "GET /ip_tracker HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:59:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:59:19] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:59:21] "GET /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:59:21] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:59:24] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:59:26] "GET /redirect_url_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:59:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:59:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:59:32] "GET /malware HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:59:32] "GET /socket.io/?EIO=4&transport=polling&t=O_T0Du_ HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:59:32] "POST /socket.io/?EIO=4&transport=polling&t=O_T0DwL&sid=HE4lTeFseMDKawaOAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:59:32] "GET /socket.io/?EIO=4&transport=polling&t=O_T0DwN&sid=HE4lTeFseMDKawaOAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:59:32] "GET /socket.io/?EIO=4&transport=polling&t=O_T0DyS&sid=HE4lTeFseMDKawaOAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:59:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+q
+127.0.0.1 - - [03/Jun/2024 12:59:36] "GET /socket.io/?EIO=4&transport=websocket&sid=HE4lTeFseMDKawaOAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:59:37] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 12:59:38] "GET /web_application_hacking HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:59:38] "[36mGET /static/css/web_application_hacking.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 12:59:38] "[36mGET /static/css/col.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 12:59:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET / HTTP/1.1" 200 None
+127.0.0.1 - - [03/Jun/2024 12:59:42] "POST /web_application_hacking HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 12:59:42] "[36mGET /static/css/web_application_hacking.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 12:59:42] "[36mGET /static/css/col.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 12:59:43] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.bash_history HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.bashrc HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.cache HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.config HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.cvs HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.cvsignore HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.forward HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.git/HEAD HTTP/1.1" 404 1565
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.history HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.hta HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.htaccess HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.htpasswd HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.listing HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.listings HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.mysql_history HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.passwd HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.perf HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.profile HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.rhosts HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.sh_history HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.ssh HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+127.0.0.1 - - [03/Jun/2024 13:00:16] "GET /start_capture HTTP/1.1" 200 -
+https://www.google.com:443 "GET //.subversion HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.svn HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.svn/entries HTTP/1.1" 404 1568
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.swf HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.web HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //@ HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_ HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_adm HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_admin HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_ajax HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_archive HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_assets HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_backup HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_baks HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_borders HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_cache HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_catalogs HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_code HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_common HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_conf HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_config HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_css HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_data HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_database HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Key.alt_l
+Key.tab
+https://www.google.com:443 "GET //_db_backups HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_derived HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_dev HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_dummy HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_files HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_flash HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Key.alt_l
+Key.tab
+https://www.google.com:443 "GET //_fpclass HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_images HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Key.alt_l
+Key.tab
+https://www.google.com:443 "GET //_img HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_inc HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_include HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_includes HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_install HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_js HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_layouts HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_lib HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_media HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_mem_bin HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_mm HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_mmserverscripts HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_mygallery HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_net HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_notes HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Key.ctrl_l
+
+https://www.google.com:443 "GET //_old HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_overlay HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Key.ctrl_l
+https://www.google.com:443 "GET //_pages HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+
+Key.ctrl_l
+
+https://www.google.com:443 "GET //_private HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_reports HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Key.alt_l
+Key.tab
+https://www.google.com:443 "GET //_res HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Key.f5
+https://www.google.com:443 "GET //_resources HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_scriptlibrary HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_scripts HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET / HTTP/1.1" 200 None
+127.0.0.1 - - [03/Jun/2024 13:01:21] "POST /web_application_hacking HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 13:01:21] "[36mGET /static/css/web_application_hacking.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:01:21] "[36mGET /static/css/col.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:01:21] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+https://www.google.com:443 "GET //_source HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_src HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_stats HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.bash_history HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_styles HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.bashrc HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_swf HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.cache HTTP/1.1" 404 1561
+https://www.google.com:443 "GET //_temp HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_tempalbums HTTP/1.1" 404 1561
+https://www.google.com:443 "GET //.config HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.cvs HTTP/1.1" 404 1561
+https://www.google.com:443 "GET //_template HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.cvsignore HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_templates HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_test HTTP/1.1" 404 1561
+https://www.google.com:443 "GET //.forward HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_themes HTTP/1.1" 404 1561
+https://www.google.com:443 "GET //.git/HEAD HTTP/1.1" 404 1565
+Starting new HTTPS connection (1): www.google.com:443
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_tmp HTTP/1.1" 404 1561
+https://www.google.com:443 "GET //.history HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_tmpfileop HTTP/1.1" 404 1561
+https://www.google.com:443 "GET //.hta HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.htaccess HTTP/1.1" 404 1561
+https://www.google.com:443 "GET //_vti_aut HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.htpasswd HTTP/1.1" 404 1561
+https://www.google.com:443 "GET //_vti_bin HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_vti_bin/_vti_adm/admin.dll HTTP/1.1" 404 1579
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.listing HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.listings HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_vti_bin/_vti_aut/author.dll HTTP/1.1" 404 1580
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.mysql_history HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_vti_bin/shtml.dll HTTP/1.1" 404 1570
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.passwd HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_vti_cnf HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.perf HTTP/1.1" 404 1561
+127.0.0.1 - - [03/Jun/2024 13:01:44] "POST /web_application_hacking HTTP/1.1" 200 -
+https://www.google.com:443 "GET //_vti_inf HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+127.0.0.1 - - [03/Jun/2024 13:01:44] "[36mGET /static/css/web_application_hacking.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:01:44] "[36mGET /static/css/col.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:01:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+https://www.google.com:443 "GET //_vti_log HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_vti_map HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_vti_pvt HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //_vti_rpc HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+127.0.0.1 - - [03/Jun/2024 13:01:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+https://www.google.com:443 "GET //_vti_script HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+127.0.0.1 - - [03/Jun/2024 13:01:50] "GET /web_application_hacking HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 13:01:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+https://www.google.com:443 "GET //_vti_txt HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+127.0.0.1 - - [03/Jun/2024 13:01:52] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+https://www.google.com:443 "GET //_www HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~adm HTTP/1.1" 404 1561
+127.0.0.1 - - [03/Jun/2024 13:01:53] "GET /vulnerability_scanner HTTP/1.1" 200 -
+Starting new HTTPS connection (1): www.google.com:443
+127.0.0.1 - - [03/Jun/2024 13:01:53] "[36mGET /static/css/sqlinjection.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:01:53] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:01:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+https://www.google.com:443 "GET //~admin HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~administrator HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~amanda HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+127.0.0.1 - - [03/Jun/2024 13:01:57] "GET /apiendipoint HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 13:01:57] "[36mGET /static/css/apiendpoint.css HTTP/1.1[0m" 304 -
+https://www.google.com:443 "GET //~apache HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+127.0.0.1 - - [03/Jun/2024 13:01:58] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:01:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+https://www.google.com:443 "GET //~bin HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~ftp HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~guest HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~http HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~httpd HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~log HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~logs HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~lp HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+127.0.0.1 - - [03/Jun/2024 13:02:07] "GET /openredirect HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 13:02:07] "[36mGET /static/css/openredirect.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:02:07] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+https://www.google.com:443 "GET //~mail HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+127.0.0.1 - - [03/Jun/2024 13:02:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+https://www.google.com:443 "GET //~nobody HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~operator HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~root HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+127.0.0.1 - - [03/Jun/2024 13:02:10] "GET /vulnerability_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 13:02:10] "[36mGET /static/css/sqlinjection.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:02:11] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:02:11] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+https://www.google.com:443 "GET //~sys HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~sysadm HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+127.0.0.1 - - [03/Jun/2024 13:02:13] "GET /openredirect HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 13:02:13] "[36mGET /static/css/openredirect.css HTTP/1.1[0m" 304 -
+https://www.google.com:443 "GET //~sysadmin HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+127.0.0.1 - - [03/Jun/2024 13:02:13] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:02:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+https://www.google.com:443 "GET //~test HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~tmp HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~user HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~webmaster HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //~www HTTP/1.1" 404 1561
+127.0.0.1 - - [03/Jun/2024 13:02:18] "POST /web_application_hacking HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 13:02:19] "GET /tls HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 13:02:19] "[36mGET /static/css/tls.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:02:19] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:02:19] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 13:02:22] "GET /crosssitescripting HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 13:02:22] "[36mGET /static/css/crosssitescriptting.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:02:23] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:02:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Key.backspace
+Key.backspace
+Key.shift
+Key.shift
+P
+I
+Key.ctrl_l
+
+Key.ctrl_l
+
+Key.ctrl_l
+
+Key.ctrl_l
+
+Key.ctrl_l
+
+Key.ctrl_l
+
+Key.ctrl_l
+
+Key.alt_l
+Key.tab
+Key.f5
+127.0.0.1 - - [03/Jun/2024 13:03:25] "GET /crosssitescripting HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 13:03:25] "[36mGET /static/css/crosssitescriptting.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:03:25] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:03:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 13:03:31] "GET /openredirect HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 13:03:31] "[36mGET /static/css/openredirect.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:03:31] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:03:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 13:03:34] "GET /securityheaders HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 13:03:34] "[36mGET /static/css/securityheaders.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:03:34] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:03:34] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 13:03:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 13:03:38] "[36mGET /static/images/network_scanner.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:03:38] "[36mGET /static/images/packet_sniffer.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:03:38] "[36mGET /static/images/redirect.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:03:38] "[36mGET /static/images/ip_tracker.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:03:38] "[36mGET /static/images/keylogger.jpeg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:03:38] "[36mGET /static/images/hacking-web-applications.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:03:38] "[36mGET /static/images/vuln-scanning.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:03:38] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 13:03:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Key.alt_l
+Key.tab
+Key.alt_l
+Key.tab
+w
+Key.enter
+e
+Key.backspace
+Key.backspace
+m
+Key.enter
+Key.ctrl_l
+
+Key.enter
+Key.alt_l
+Key.tab
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.media_volume_up
+Key.alt_l
+Key.tab
+Key.alt_l
+Key.tab
+Key.ctrl_l
+

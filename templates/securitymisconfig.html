@@ -14,8 +14,7 @@
     <!-- Navbar should be finalized here for all the pages-->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="/"><img style="width: 50px;"
-                    src="{{ url_for('static', filename='/images/logo.png') }}" alt="logo"></a>
+            <a class="navbar-brand" href="/"><p style="color:white">Home<p></a>
             <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -29,14 +28,13 @@
                             Scanners
                         </a>
                         <div class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{url_for('apiendipoint')}}">Api Endpoint</a>
+                            <a class="dropdown-item" href="{{url_for('apiendipoint')}}">API Endpoint</a>
                             <a class="dropdown-item" href="{{url_for('openredirect')}}">Open Redirect</a>
                             <a class="dropdown-item" href="{{url_for('vulnerability_scanner')}}">SQL Injection</a>
                             <a class="dropdown-item" href="{{url_for('tls')}}">TLS</a>
-                            <a class="dropdown-item" href="{{url_for('crosssitescripting')}}">Cross Site</a>
+                            <a class="dropdown-item" href="{{url_for('crosssitescripting')}}">Cross Site Scripting</a>
                             <a class="dropdown-item" href="{{url_for('securityheaders')}}">Security Headers</a>
-                            <a class="dropdown-item" href="{{url_for('securityheaders')}}">Security Minsconf</a>
-                            <a class="dropdown-item" href="{{url_for('securitymisconfig')}}">Security Minsconfig</a>  
+                            <a class="dropdown-item" href="{{url_for('securityheaders')}}">Security Misconf</a>
                         </div>
                     </li>
                 </ul>

@@ -1,176 +1,2418 @@
 Packet Number: 1
-Time: 2024-05-31 21:06:24
-Length: 146
-Info: Ether / IP / UDP 192.168.1.3:6881 > 165.16.244.125:54227 / Raw
-Source IP: 192.168.1.3
-Destination IP: 165.16.244.125
-Source Port: 6881
-Destination Port: 54227
-Protocol: UDP
+Time: 2024-06-03 12:58:26
+Length: 42
+Info: Ether / ARP who has 192.168.14.187 says 192.168.14.185
+Source IP: None
+Destination IP: None
+Source Port: None
+Destination Port: None
+Protocol: Unknown
 Data: 
 ==================================================================================
 Packet Number: 2
-Time: 2024-05-31 21:06:24
-Length: 359
-Info: Ether / IP / UDP 165.16.244.125:54227 > 192.168.1.3:6881 / Raw
-Source IP: 165.16.244.125
-Destination IP: 192.168.1.3
-Source Port: 54227
-Destination Port: 6881
-Protocol: UDP
+Time: 2024-06-03 12:58:26
+Length: 42
+Info: Ether / ARP is at 02:c1:6c:0d:c0:bf says 192.168.14.187
+Source IP: None
+Destination IP: None
+Source Port: None
+Destination Port: None
+Protocol: Unknown
 Data: 
 ==================================================================================
 Packet Number: 3
-Time: 2024-05-31 21:06:26
-Length: 79
-Info: Ether / IP / UDP 142.250.195.138:https > 192.168.1.3:59754 / Raw
-Source IP: 142.250.195.138
-Destination IP: 192.168.1.3
-Source Port: 443
-Destination Port: 59754
+Time: 2024-06-03 12:58:29
+Length: 146
+Info: Ether / IP / UDP 192.168.14.187:6881 > 1.243.130.38:40676 / Raw
+Source IP: 192.168.14.187
+Destination IP: 1.243.130.38
+Source Port: 6881
+Destination Port: 40676
 Protocol: UDP
 Data: 
 ==================================================================================
 Packet Number: 4
-Time: 2024-05-31 21:06:26
-Length: 77
-Info: Ether / IP / UDP 142.250.195.138:https > 192.168.1.3:59754 / Raw
-Source IP: 142.250.195.138
-Destination IP: 192.168.1.3
-Source Port: 443
-Destination Port: 59754
+Time: 2024-06-03 12:58:30
+Length: 351
+Info: Ether / IP / UDP 1.243.130.38:40676 > 192.168.14.187:6881 / Raw
+Source IP: 1.243.130.38
+Destination IP: 192.168.14.187
+Source Port: 40676
+Destination Port: 6881
 Protocol: UDP
 Data: 
 ==================================================================================
 Packet Number: 5
-Time: 2024-05-31 21:06:26
-Length: 97
-Info: Ether / IP / UDP 142.250.195.138:https > 192.168.1.3:59754 / Raw
-Source IP: 142.250.195.138
-Destination IP: 192.168.1.3
-Source Port: 443
-Destination Port: 59754
+Time: 2024-06-03 12:58:31
+Length: 75
+Info: Ether / IP / UDP / DNS Qry "b'play.google.com.'" 
+Source IP: 192.168.14.187
+Destination IP: 192.168.14.185
+Source Port: 60412
+Destination Port: 53
 Protocol: UDP
-Data: 
+Data: play.google.com.
 ==================================================================================
 Packet Number: 6
-Time: 2024-05-31 21:06:26
+Time: 2024-06-03 12:58:31
 Length: 75
-Info: Ether / IP / UDP 192.168.1.3:59754 > 142.250.195.138:https / Raw
-Source IP: 192.168.1.3
-Destination IP: 142.250.195.138
-Source Port: 59754
-Destination Port: 443
+Info: Ether / IP / UDP / DNS Qry "b'play.google.com.'" 
+Source IP: 192.168.14.187
+Destination IP: 192.168.14.185
+Source Port: 53032
+Destination Port: 53
 Protocol: UDP
-Data: 
+Data: play.google.com.
 ==================================================================================
 Packet Number: 7
-Time: 2024-05-31 21:06:26
-Length: 582
-Info: Ether / IP / UDP 192.168.1.3:59754 > 142.250.195.138:https / Raw
-Source IP: 192.168.1.3
-Destination IP: 142.250.195.138
-Source Port: 59754
-Destination Port: 443
+Time: 2024-06-03 12:58:31
+Length: 91
+Info: Ether / IP / UDP / DNS Ans "142.250.196.14" 
+Source IP: 192.168.14.185
+Destination IP: 192.168.14.187
+Source Port: 53
+Destination Port: 60412
 Protocol: UDP
 Data: 
 ==================================================================================
 Packet Number: 8
-Time: 2024-05-31 21:06:26
-Length: 72
-Info: Ether / IP / UDP 142.250.195.138:https > 192.168.1.3:59754 / Raw
-Source IP: 142.250.195.138
-Destination IP: 192.168.1.3
-Source Port: 443
-Destination Port: 59754
+Time: 2024-06-03 12:58:31
+Length: 75
+Info: Ether / IP / UDP / DNS Qry "b'www.youtube.com.'" 
+Source IP: 192.168.14.187
+Destination IP: 192.168.14.185
+Source Port: 60414
+Destination Port: 53
 Protocol: UDP
-Data: 
+Data: www.youtube.com.
 ==================================================================================
 Packet Number: 9
-Time: 2024-05-31 21:06:26
+Time: 2024-06-03 12:58:31
 Length: 75
-Info: Ether / IP / UDP 192.168.1.3:59754 > 142.250.195.138:https / Raw
-Source IP: 192.168.1.3
-Destination IP: 142.250.195.138
-Source Port: 59754
-Destination Port: 443
+Info: Ether / IP / UDP / DNS Qry "b'www.youtube.com.'" 
+Source IP: 192.168.14.187
+Destination IP: 192.168.14.185
+Source Port: 60890
+Destination Port: 53
 Protocol: UDP
-Data: 
+Data: www.youtube.com.
 ==================================================================================
 Packet Number: 10
-Time: 2024-05-31 21:06:26
-Length: 146
-Info: Ether / IP / UDP 142.250.195.138:https > 192.168.1.3:59754 / Raw
-Source IP: 142.250.195.138
-Destination IP: 192.168.1.3
-Source Port: 443
-Destination Port: 59754
+Time: 2024-06-03 12:58:31
+Length: 125
+Info: Ether / IP / UDP / DNS Ans 
+Source IP: 192.168.14.185
+Destination IP: 192.168.14.187
+Source Port: 53
+Destination Port: 53032
 Protocol: UDP
 Data: 
 ==================================================================================
 Packet Number: 11
-Time: 2024-05-31 21:06:26
-Length: 79
-Info: Ether / IP / UDP 192.168.1.3:59754 > 142.250.195.138:https / Raw
-Source IP: 192.168.1.3
-Destination IP: 142.250.195.138
-Source Port: 59754
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
 Destination Port: 443
 Protocol: UDP
 Data: 
 ==================================================================================
 Packet Number: 12
-Time: 2024-05-31 21:06:26
-Length: 67
-Info: Ether / IP / UDP 142.250.195.138:https > 192.168.1.3:59754 / Raw
-Source IP: 142.250.195.138
-Destination IP: 192.168.1.3
-Source Port: 443
-Destination Port: 59754
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
 Protocol: UDP
 Data: 
 ==================================================================================
 Packet Number: 13
-Time: 2024-05-31 21:06:27
-Length: 55
-Info: Ether / IP / TCP 192.168.1.3:22290 > 57.128.101.79:https A / Raw
-Source IP: 192.168.1.3
-Destination IP: 57.128.101.79
-Source Port: 22290
+Time: 2024-06-03 12:58:31
+Length: 124
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
 Destination Port: 443
-Protocol: TCP
+Protocol: UDP
 Data: 
 ==================================================================================
 Packet Number: 14
-Time: 2024-05-31 21:06:27
-Length: 54
-Info: Ether / IP / TCP 57.128.101.79:https > 192.168.1.3:22290 A
-Source IP: 57.128.101.79
-Destination IP: 192.168.1.3
-Source Port: 443
-Destination Port: 22290
-Protocol: TCP
+Time: 2024-06-03 12:58:31
+Length: 365
+Info: Ether / IP / UDP / DNS Ans "b'youtube-ui.l.google.com.'" 
+Source IP: 192.168.14.185
+Destination IP: 192.168.14.187
+Source Port: 53
+Destination Port: 60414
+Protocol: UDP
 Data: 
 ==================================================================================
 Packet Number: 15
-Time: 2024-05-31 21:06:27
-Length: 54
-Info: Ether / IP / TCP 192.168.1.3:22290 > 57.128.101.79:https A
-Source IP: 192.168.1.3
-Destination IP: 57.128.101.79
-Source Port: 22290
+Time: 2024-06-03 12:58:31
+Length: 124
+Info: Ether / IP / UDP / DNS Ans "b'youtube-ui.l.google.com.'" 
+Source IP: 192.168.14.185
+Destination IP: 192.168.14.187
+Source Port: 53
+Destination Port: 60890
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 16
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:50260 > 216.58.200.142:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 216.58.200.142
+Source Port: 50260
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 17
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:50260 > 216.58.200.142:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 216.58.200.142
+Source Port: 50260
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 18
+Time: 2024-06-03 12:58:31
+Length: 119
+Info: Ether / IP / UDP 192.168.14.187:50260 > 216.58.200.142:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 216.58.200.142
+Source Port: 50260
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 19
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 20
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 21
+Time: 2024-06-03 12:58:31
+Length: 341
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 22
+Time: 2024-06-03 12:58:31
+Length: 672
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 23
+Time: 2024-06-03 12:58:31
+Length: 67
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 24
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 25
+Time: 2024-06-03 12:58:31
+Length: 73
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 26
+Time: 2024-06-03 12:58:31
+Length: 1288
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 27
+Time: 2024-06-03 12:58:31
+Length: 1288
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 28
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 29
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 30
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 31
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 32
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 33
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 34
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 35
+Time: 2024-06-03 12:58:31
+Length: 379
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 36
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 216.58.200.142:https > 192.168.14.187:50260 / Raw
+Source IP: 216.58.200.142
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 50260
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 37
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 216.58.200.142:https > 192.168.14.187:50260 / Raw
+Source IP: 216.58.200.142
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 50260
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 38
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:50260 > 216.58.200.142:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 216.58.200.142
+Source Port: 50260
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 39
+Time: 2024-06-03 12:58:31
+Length: 349
+Info: Ether / IP / UDP 216.58.200.142:https > 192.168.14.187:50260 / Raw
+Source IP: 216.58.200.142
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 50260
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 40
+Time: 2024-06-03 12:58:31
+Length: 985
+Info: Ether / IP / UDP 216.58.200.142:https > 192.168.14.187:50260 / Raw
+Source IP: 216.58.200.142
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 50260
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 41
+Time: 2024-06-03 12:58:31
+Length: 66
+Info: Ether / IP / UDP 216.58.200.142:https > 192.168.14.187:50260 / Raw
+Source IP: 216.58.200.142
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 50260
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 42
+Time: 2024-06-03 12:58:31
+Length: 120
+Info: Ether / IP / UDP 192.168.14.187:50260 > 216.58.200.142:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 216.58.200.142
+Source Port: 50260
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 43
+Time: 2024-06-03 12:58:31
+Length: 73
+Info: Ether / IP / UDP 192.168.14.187:50260 > 216.58.200.142:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 216.58.200.142
+Source Port: 50260
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 44
+Time: 2024-06-03 12:58:31
+Length: 1288
+Info: Ether / IP / UDP 192.168.14.187:50260 > 216.58.200.142:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 216.58.200.142
+Source Port: 50260
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 45
+Time: 2024-06-03 12:58:31
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:50260 > 216.58.200.142:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 216.58.200.142
+Source Port: 50260
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 46
+Time: 2024-06-03 12:58:31
+Length: 1052
+Info: Ether / IP / UDP 192.168.14.187:50260 > 216.58.200.142:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 216.58.200.142
+Source Port: 50260
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 47
+Time: 2024-06-03 12:58:31
+Length: 276
+Info: Ether / IP / UDP 192.168.14.187:50260 > 216.58.200.142:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 216.58.200.142
+Source Port: 50260
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 48
+Time: 2024-06-03 12:58:31
+Length: 158
+Info: Ether / IP / UDP 192.168.14.187:50260 > 216.58.200.142:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 216.58.200.142
+Source Port: 50260
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 49
+Time: 2024-06-03 12:58:31
+Length: 66
+Info: Ether / IP / UDP 216.58.200.142:https > 192.168.14.187:50260 / Raw
+Source IP: 216.58.200.142
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 50260
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 50
+Time: 2024-06-03 12:58:31
+Length: 162
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 51
+Time: 2024-06-03 12:58:31
+Length: 67
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 52
+Time: 2024-06-03 12:58:31
+Length: 71
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 53
+Time: 2024-06-03 12:58:31
+Length: 67
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 54
+Time: 2024-06-03 12:58:31
+Length: 73
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 55
+Time: 2024-06-03 12:58:31
+Length: 67
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 56
+Time: 2024-06-03 12:58:31
+Length: 67
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 57
+Time: 2024-06-03 12:58:31
+Length: 73
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 58
+Time: 2024-06-03 12:58:31
+Length: 162
+Info: Ether / IP / UDP 216.58.200.142:https > 192.168.14.187:50260 / Raw
+Source IP: 216.58.200.142
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 50260
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 59
+Time: 2024-06-03 12:58:31
+Length: 67
+Info: Ether / IP / UDP 216.58.200.142:https > 192.168.14.187:50260 / Raw
+Source IP: 216.58.200.142
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 50260
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 60
+Time: 2024-06-03 12:58:31
+Length: 67
+Info: Ether / IP / UDP 216.58.200.142:https > 192.168.14.187:50260 / Raw
+Source IP: 216.58.200.142
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 50260
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 61
+Time: 2024-06-03 12:58:31
+Length: 67
+Info: Ether / IP / UDP 216.58.200.142:https > 192.168.14.187:50260 / Raw
+Source IP: 216.58.200.142
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 50260
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 62
+Time: 2024-06-03 12:58:31
+Length: 71
+Info: Ether / IP / UDP 216.58.200.142:https > 192.168.14.187:50260 / Raw
+Source IP: 216.58.200.142
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 50260
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 63
+Time: 2024-06-03 12:58:31
+Length: 73
+Info: Ether / IP / UDP 192.168.14.187:50260 > 216.58.200.142:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 216.58.200.142
+Source Port: 50260
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 64
+Time: 2024-06-03 12:58:31
+Length: 66
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 65
+Time: 2024-06-03 12:58:31
+Length: 74
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 66
+Time: 2024-06-03 12:58:31
+Length: 291
+Info: Ether / IP / UDP 216.58.200.142:https > 192.168.14.187:50260 / Raw
+Source IP: 216.58.200.142
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 50260
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 67
+Time: 2024-06-03 12:58:31
+Length: 63
+Info: Ether / IP / UDP 216.58.200.142:https > 192.168.14.187:50260 / Raw
+Source IP: 216.58.200.142
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 50260
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 68
+Time: 2024-06-03 12:58:31
+Length: 77
+Info: Ether / IP / UDP 192.168.14.187:50260 > 216.58.200.142:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 216.58.200.142
+Source Port: 50260
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 69
+Time: 2024-06-03 12:58:31
+Length: 886
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 70
+Time: 2024-06-03 12:58:31
+Length: 77
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 71
+Time: 2024-06-03 12:58:31
+Length: 244
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 72
+Time: 2024-06-03 12:58:32
+Length: 696
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 73
+Time: 2024-06-03 12:58:32
+Length: 77
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 74
+Time: 2024-06-03 12:58:32
+Length: 74
+Info: Ether / IP / UDP 192.168.14.187:50260 > 216.58.200.142:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 216.58.200.142
+Source Port: 50260
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 75
+Time: 2024-06-03 12:58:32
+Length: 307
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 76
+Time: 2024-06-03 12:58:32
+Length: 668
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 77
+Time: 2024-06-03 12:58:32
+Length: 77
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 78
+Time: 2024-06-03 12:58:32
+Length: 170
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 79
+Time: 2024-06-03 12:58:32
+Length: 66
+Info: Ether / IP / UDP 216.58.200.142:https > 192.168.14.187:50260 / Raw
+Source IP: 216.58.200.142
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 50260
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 80
+Time: 2024-06-03 12:58:32
+Length: 74
+Info: Ether / IP / UDP 192.168.14.187:62933 > 142.250.196.14:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.196.14
+Source Port: 62933
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 81
+Time: 2024-06-03 12:58:32
+Length: 66
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 82
+Time: 2024-06-03 12:58:32
+Length: 65
+Info: Ether / IP / UDP 142.250.196.14:https > 192.168.14.187:62933 / Raw
+Source IP: 142.250.196.14
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 62933
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 83
+Time: 2024-06-03 12:58:32
+Length: 74
+Info: Ether / IP / UDP / DNS Qry "b'sa3.scener.com.'" 
+Source IP: 192.168.14.187
+Destination IP: 192.168.14.185
+Source Port: 51230
+Destination Port: 53
+Protocol: UDP
+Data: sa3.scener.com.
+==================================================================================
+Packet Number: 84
+Time: 2024-06-03 12:58:32
+Length: 74
+Info: Ether / IP / UDP / DNS Qry "b'sa3.scener.com.'" 
+Source IP: 192.168.14.187
+Destination IP: 192.168.14.185
+Source Port: 62185
+Destination Port: 53
+Protocol: UDP
+Data: sa3.scener.com.
+==================================================================================
+Packet Number: 85
+Time: 2024-06-03 12:58:32
+Length: 195
+Info: Ether / IP / UDP / DNS Ans "b'scener-analytics-v3-prod-711608502.us-west-2.elb.amazonaws.com.'" 
+Source IP: 192.168.14.185
+Destination IP: 192.168.14.187
+Source Port: 53
+Destination Port: 51230
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 86
+Time: 2024-06-03 12:58:32
+Length: 225
+Info: Ether / IP / UDP / DNS Ans "b'scener-analytics-v3-prod-711608502.us-west-2.elb.amazonaws.com.'" 
+Source IP: 192.168.14.185
+Destination IP: 192.168.14.187
+Source Port: 53
+Destination Port: 62185
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 87
+Time: 2024-06-03 12:58:32
+Length: 66
+Info: Ether / IP / TCP 192.168.14.187:19009 > 35.83.61.12:https S
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19009
 Destination Port: 443
 Protocol: TCP
 Data: 
 ==================================================================================
-Packet Number: 16
-Time: 2024-05-31 21:06:27
+Packet Number: 88
+Time: 2024-06-03 12:58:32
 Length: 66
-Info: Ether / IP / TCP 57.128.101.79:https > 192.168.1.3:22290 A
-Source IP: 57.128.101.79
-Destination IP: 192.168.1.3
-Source Port: 443
-Destination Port: 22290
+Info: Ether / IP / TCP 192.168.14.187:19010 > 35.83.61.12:https S
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19010
+Destination Port: 443
 Protocol: TCP
 Data: 
 ==================================================================================
+Packet Number: 89
+Time: 2024-06-03 12:58:32
+Length: 66
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19009 SA
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19009
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 90
+Time: 2024-06-03 12:58:32
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:19009 > 35.83.61.12:https A
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19009
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 91
+Time: 2024-06-03 12:58:32
+Length: 1354
+Info: Ether / IP / TCP 192.168.14.187:19009 > 35.83.61.12:https A / Raw
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19009
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 92
+Time: 2024-06-03 12:58:32
+Length: 679
+Info: Ether / IP / TCP 192.168.14.187:19009 > 35.83.61.12:https PA / Raw
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19009
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 93
+Time: 2024-06-03 12:58:32
+Length: 66
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19010 SA
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19010
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 94
+Time: 2024-06-03 12:58:32
+Length: 54
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19009 A
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19009
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 95
+Time: 2024-06-03 12:58:32
+Length: 1354
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19009 A / Raw
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19009
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 96
+Time: 2024-06-03 12:58:32
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:19010 > 35.83.61.12:https A
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19010
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 97
+Time: 2024-06-03 12:58:32
+Length: 1354
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19009 A / Raw
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19009
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 98
+Time: 2024-06-03 12:58:32
+Length: 1354
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19009 A / Raw
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19009
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 99
+Time: 2024-06-03 12:58:32
+Length: 1354
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19009 A / Raw
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19009
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 100
+Time: 2024-06-03 12:58:32
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:19009 > 35.83.61.12:https A
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19009
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 101
+Time: 2024-06-03 12:58:32
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:19009 > 35.83.61.12:https A
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19009
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 102
+Time: 2024-06-03 12:58:32
+Length: 1354
+Info: Ether / IP / TCP 192.168.14.187:19010 > 35.83.61.12:https A / Raw
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19010
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 103
+Time: 2024-06-03 12:58:32
+Length: 647
+Info: Ether / IP / TCP 192.168.14.187:19010 > 35.83.61.12:https PA / Raw
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19010
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 104
+Time: 2024-06-03 12:58:32
+Length: 263
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19009 PA / Raw
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19009
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 105
+Time: 2024-06-03 12:58:32
+Length: 180
+Info: Ether / IP / TCP 192.168.14.187:19009 > 35.83.61.12:https PA / Raw
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19009
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 106
+Time: 2024-06-03 12:58:32
+Length: 378
+Info: Ether / IP / UDP / DNS Ans "[b'']" 
+Source IP: 192.168.14.187
+Destination IP: 224.0.0.251
+Source Port: 5353
+Destination Port: 5353
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 107
+Time: 2024-06-03 12:58:33
+Length: 54
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19009 A
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19009
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 108
+Time: 2024-06-03 12:58:33
+Length: 225
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19009 PA / Raw
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19009
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 109
+Time: 2024-06-03 12:58:33
+Length: 54
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19010 A
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19010
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 110
+Time: 2024-06-03 12:58:33
+Length: 54
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19010 A
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19010
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 111
+Time: 2024-06-03 12:58:33
+Length: 1354
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19010 A / Raw
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19010
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 112
+Time: 2024-06-03 12:58:33
+Length: 1354
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19010 A / Raw
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19010
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 113
+Time: 2024-06-03 12:58:33
+Length: 1354
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19010 A / Raw
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19010
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 114
+Time: 2024-06-03 12:58:33
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:19010 > 35.83.61.12:https A
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19010
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 115
+Time: 2024-06-03 12:58:33
+Length: 1354
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19010 A / Raw
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19010
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 116
+Time: 2024-06-03 12:58:33
+Length: 263
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19010 PA / Raw
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19010
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 117
+Time: 2024-06-03 12:58:33
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:19010 > 35.83.61.12:https A
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19010
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 118
+Time: 2024-06-03 12:58:33
+Length: 706
+Info: Ether / IP / TCP 192.168.14.187:19009 > 35.83.61.12:https PA / Raw
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19009
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 119
+Time: 2024-06-03 12:58:33
+Length: 1354
+Info: Ether / IP / TCP 192.168.14.187:19009 > 35.83.61.12:https A / Raw
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19009
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 120
+Time: 2024-06-03 12:58:33
+Length: 632
+Info: Ether / IP / TCP 192.168.14.187:19009 > 35.83.61.12:https PA / Raw
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19009
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 121
+Time: 2024-06-03 12:58:33
+Length: 180
+Info: Ether / IP / TCP 192.168.14.187:19010 > 35.83.61.12:https PA / Raw
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19010
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 122
+Time: 2024-06-03 12:58:33
+Length: 54
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19009 A
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19009
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 123
+Time: 2024-06-03 12:58:33
+Length: 54
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19010 A
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19010
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 124
+Time: 2024-06-03 12:58:33
+Length: 225
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19010 PA / Raw
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19010
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 125
+Time: 2024-06-03 12:58:33
+Length: 399
+Info: Ether / IP / TCP 35.83.61.12:https > 192.168.14.187:19009 PA / Raw
+Source IP: 35.83.61.12
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19009
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 126
+Time: 2024-06-03 12:58:33
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:19010 > 35.83.61.12:https A
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19010
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 127
+Time: 2024-06-03 12:58:33
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:19009 > 35.83.61.12:https A
+Source IP: 192.168.14.187
+Destination IP: 35.83.61.12
+Source Port: 19009
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 128
+Time: 2024-06-03 12:58:34
+Length: 83
+Info: Ether / IP / UDP / DNS Qry "b'www.msftconnecttest.com.'" 
+Source IP: 192.168.14.187
+Destination IP: 192.168.14.185
+Source Port: 61109
+Destination Port: 53
+Protocol: UDP
+Data: www.msftconnecttest.com.
+==================================================================================
+Packet Number: 129
+Time: 2024-06-03 12:58:34
+Length: 84
+Info: Ether / IP / UDP / DNS Qry "b'ipv6.msftconnecttest.com.'" 
+Source IP: 192.168.14.187
+Destination IP: 192.168.14.185
+Source Port: 55125
+Destination Port: 53
+Protocol: UDP
+Data: ipv6.msftconnecttest.com.
+==================================================================================
+Packet Number: 130
+Time: 2024-06-03 12:58:34
+Length: 227
+Info: Ether / IP / UDP / DNS Ans "b'ncsi-geo.trafficmanager.net.'" 
+Source IP: 192.168.14.185
+Destination IP: 192.168.14.187
+Source Port: 53
+Destination Port: 61109
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 131
+Time: 2024-06-03 12:58:34
+Length: 66
+Info: Ether / IP / TCP 192.168.14.187:19014 > 23.201.47.168:http S
+Source IP: 192.168.14.187
+Destination IP: 23.201.47.168
+Source Port: 19014
+Destination Port: 80
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 132
+Time: 2024-06-03 12:58:34
+Length: 269
+Info: Ether / IP / UDP / DNS Ans "b'ncsiv6-geo.trafficmanager.net.'" 
+Source IP: 192.168.14.185
+Destination IP: 192.168.14.187
+Source Port: 53
+Destination Port: 55125
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 133
+Time: 2024-06-03 12:58:34
+Length: 66
+Info: Ether / IP / TCP 23.201.47.168:http > 192.168.14.187:19014 SA
+Source IP: 23.201.47.168
+Destination IP: 192.168.14.187
+Source Port: 80
+Destination Port: 19014
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 134
+Time: 2024-06-03 12:58:34
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:19014 > 23.201.47.168:http A
+Source IP: 192.168.14.187
+Destination IP: 23.201.47.168
+Source Port: 19014
+Destination Port: 80
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 135
+Time: 2024-06-03 12:58:34
+Length: 208
+Info: Ether / IP / TCP 192.168.14.187:19014 > 23.201.47.168:http PA / Raw
+Source IP: 192.168.14.187
+Destination IP: 23.201.47.168
+Source Port: 19014
+Destination Port: 80
+Protocol: TCP
+Data: GET /connecttest.txt HTTP/1.1
+Cache-Control: no-cache
+Connection: Close
+Pragma: no-cache
+User-Agent: Microsoft NCSI
+Host: www.msftconnecttest.com
+
+
+==================================================================================
+Packet Number: 136
+Time: 2024-06-03 12:58:34
+Length: 54
+Info: Ether / IP / TCP 23.201.47.168:http > 192.168.14.187:19014 A
+Source IP: 23.201.47.168
+Destination IP: 192.168.14.187
+Source Port: 80
+Destination Port: 19014
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 137
+Time: 2024-06-03 12:58:34
+Length: 241
+Info: Ether / IP / TCP 23.201.47.168:http > 192.168.14.187:19014 PA / Raw
+Source IP: 23.201.47.168
+Destination IP: 192.168.14.187
+Source Port: 80
+Destination Port: 19014
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 138
+Time: 2024-06-03 12:58:34
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:19014 > 23.201.47.168:http FA
+Source IP: 192.168.14.187
+Destination IP: 23.201.47.168
+Source Port: 19014
+Destination Port: 80
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 139
+Time: 2024-06-03 12:58:34
+Length: 54
+Info: Ether / IP / TCP 23.201.47.168:http > 192.168.14.187:19014 FA
+Source IP: 23.201.47.168
+Destination IP: 192.168.14.187
+Source Port: 80
+Destination Port: 19014
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 140
+Time: 2024-06-03 12:58:34
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:19014 > 23.201.47.168:http A
+Source IP: 192.168.14.187
+Destination IP: 23.201.47.168
+Source Port: 19014
+Destination Port: 80
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 141
+Time: 2024-06-03 12:58:34
+Length: 54
+Info: Ether / IP / TCP 23.201.47.168:http > 192.168.14.187:19014 A
+Source IP: 23.201.47.168
+Destination IP: 192.168.14.187
+Source Port: 80
+Destination Port: 19014
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 142
+Time: 2024-06-03 12:58:34
+Length: 146
+Info: Ether / IP / UDP 192.168.14.187:6881 > 112.172.42.89:33092 / Raw
+Source IP: 192.168.14.187
+Destination IP: 112.172.42.89
+Source Port: 6881
+Destination Port: 33092
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 143
+Time: 2024-06-03 12:58:35
+Length: 55
+Info: Ether / IP / TCP 192.168.14.187:17953 > 203.23.178.29:https A / Raw
+Source IP: 192.168.14.187
+Destination IP: 203.23.178.29
+Source Port: 17953
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 144
+Time: 2024-06-03 12:58:35
+Length: 351
+Info: Ether / IP / UDP 112.172.42.89:33092 > 192.168.14.187:6881 / Raw
+Source IP: 112.172.42.89
+Destination IP: 192.168.14.187
+Source Port: 33092
+Destination Port: 6881
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 145
+Time: 2024-06-03 12:58:35
+Length: 54
+Info: Ether / IP / TCP 203.23.178.29:https > 192.168.14.187:17953 A
+Source IP: 203.23.178.29
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 17953
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 146
+Time: 2024-06-03 12:58:35
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:17953 > 203.23.178.29:https A
+Source IP: 192.168.14.187
+Destination IP: 203.23.178.29
+Source Port: 17953
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 147
+Time: 2024-06-03 12:58:35
+Length: 66
+Info: Ether / IP / TCP 203.23.178.29:https > 192.168.14.187:17953 A
+Source IP: 203.23.178.29
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 17953
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 148
+Time: 2024-06-03 12:58:39
+Length: 54
+Info: Ether / IP / TCP 151.101.66.137:https > 192.168.14.187:17962 RA
+Source IP: 151.101.66.137
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 17962
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 149
+Time: 2024-06-03 12:58:39
+Length: 146
+Info: Ether / IP / UDP 192.168.14.187:6881 > 121.167.165.97:7791 / Raw
+Source IP: 192.168.14.187
+Destination IP: 121.167.165.97
+Source Port: 6881
+Destination Port: 7791
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 150
+Time: 2024-06-03 12:58:40
+Length: 351
+Info: Ether / IP / UDP 121.167.165.97:7791 > 192.168.14.187:6881 / Raw
+Source IP: 121.167.165.97
+Destination IP: 192.168.14.187
+Source Port: 7791
+Destination Port: 6881
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 151
+Time: 2024-06-03 12:58:40
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:56759 > 142.250.71.42:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.71.42
+Source Port: 56759
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 152
+Time: 2024-06-03 12:58:40
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:56759 > 142.250.71.42:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.71.42
+Source Port: 56759
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 153
+Time: 2024-06-03 12:58:40
+Length: 66
+Info: Ether / IP / TCP 192.168.14.187:19022 > 142.251.42.99:https S
+Source IP: 192.168.14.187
+Destination IP: 142.251.42.99
+Source Port: 19022
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 154
+Time: 2024-06-03 12:58:40
+Length: 1292
+Info: Ether / IP / UDP 142.250.71.42:https > 192.168.14.187:56759 / Raw
+Source IP: 142.250.71.42
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 56759
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 155
+Time: 2024-06-03 12:58:40
+Length: 1292
+Info: Ether / IP / UDP 142.250.71.42:https > 192.168.14.187:56759 / Raw
+Source IP: 142.250.71.42
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 56759
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 156
+Time: 2024-06-03 12:58:40
+Length: 1292
+Info: Ether / IP / UDP 142.250.71.42:https > 192.168.14.187:56759 / Raw
+Source IP: 142.250.71.42
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 56759
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 157
+Time: 2024-06-03 12:58:40
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:56759 > 142.250.71.42:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.71.42
+Source Port: 56759
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 158
+Time: 2024-06-03 12:58:40
+Length: 66
+Info: Ether / IP / TCP 142.251.42.99:https > 192.168.14.187:19022 SA
+Source IP: 142.251.42.99
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19022
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 159
+Time: 2024-06-03 12:58:40
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:19022 > 142.251.42.99:https A
+Source IP: 192.168.14.187
+Destination IP: 142.251.42.99
+Source Port: 19022
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 160
+Time: 2024-06-03 12:58:40
+Length: 1354
+Info: Ether / IP / TCP 192.168.14.187:19022 > 142.251.42.99:https A / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.251.42.99
+Source Port: 19022
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 161
+Time: 2024-06-03 12:58:40
+Length: 577
+Info: Ether / IP / TCP 192.168.14.187:19022 > 142.251.42.99:https PA / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.251.42.99
+Source Port: 19022
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 162
+Time: 2024-06-03 12:58:40
+Length: 1292
+Info: Ether / IP / UDP 142.250.71.42:https > 192.168.14.187:56759 / Raw
+Source IP: 142.250.71.42
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 56759
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 163
+Time: 2024-06-03 12:58:40
+Length: 1292
+Info: Ether / IP / UDP 142.250.71.42:https > 192.168.14.187:56759 / Raw
+Source IP: 142.250.71.42
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 56759
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 164
+Time: 2024-06-03 12:58:40
+Length: 81
+Info: Ether / IP / UDP 192.168.14.187:56759 > 142.250.71.42:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.71.42
+Source Port: 56759
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 165
+Time: 2024-06-03 12:58:40
+Length: 1292
+Info: Ether / IP / UDP 142.250.71.42:https > 192.168.14.187:56759 / Raw
+Source IP: 142.250.71.42
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 56759
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 166
+Time: 2024-06-03 12:58:40
+Length: 82
+Info: Ether / IP / UDP 192.168.14.187:56759 > 142.250.71.42:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.71.42
+Source Port: 56759
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 167
+Time: 2024-06-03 12:58:40
+Length: 213
+Info: Ether / IP / UDP 142.250.71.42:https > 192.168.14.187:56759 / Raw
+Source IP: 142.250.71.42
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 56759
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 168
+Time: 2024-06-03 12:58:40
+Length: 209
+Info: Ether / IP / UDP 192.168.14.187:56759 > 142.250.71.42:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.71.42
+Source Port: 56759
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 169
+Time: 2024-06-03 12:58:40
+Length: 54
+Info: Ether / IP / TCP 142.251.42.99:https > 192.168.14.187:19022 A
+Source IP: 142.251.42.99
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19022
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 170
+Time: 2024-06-03 12:58:40
+Length: 54
+Info: Ether / IP / TCP 142.251.42.99:https > 192.168.14.187:19022 A
+Source IP: 142.251.42.99
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19022
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 171
+Time: 2024-06-03 12:58:40
+Length: 996
+Info: Ether / IP / UDP 142.250.71.42:https > 192.168.14.187:56759 / Raw
+Source IP: 142.250.71.42
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 56759
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 172
+Time: 2024-06-03 12:58:40
+Length: 163
+Info: Ether / IP / UDP 142.250.71.42:https > 192.168.14.187:56759 / Raw
+Source IP: 142.250.71.42
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 56759
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 173
+Time: 2024-06-03 12:58:40
+Length: 73
+Info: Ether / IP / UDP 192.168.14.187:56759 > 142.250.71.42:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.71.42
+Source Port: 56759
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 174
+Time: 2024-06-03 12:58:40
+Length: 66
+Info: Ether / IP / UDP 142.250.71.42:https > 192.168.14.187:56759 / Raw
+Source IP: 142.250.71.42
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 56759
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 175
+Time: 2024-06-03 12:58:40
+Length: 1354
+Info: Ether / IP / TCP 142.251.42.99:https > 192.168.14.187:19022 A / Raw
+Source IP: 142.251.42.99
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19022
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 176
+Time: 2024-06-03 12:58:40
+Length: 1354
+Info: Ether / IP / TCP 142.251.42.99:https > 192.168.14.187:19022 PA / Raw
+Source IP: 142.251.42.99
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19022
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 177
+Time: 2024-06-03 12:58:40
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:19022 > 142.251.42.99:https A
+Source IP: 192.168.14.187
+Destination IP: 142.251.42.99
+Source Port: 19022
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 178
+Time: 2024-06-03 12:58:40
+Length: 1354
+Info: Ether / IP / TCP 142.251.42.99:https > 192.168.14.187:19022 A / Raw
+Source IP: 142.251.42.99
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19022
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 179
+Time: 2024-06-03 12:58:40
+Length: 1354
+Info: Ether / IP / TCP 142.251.42.99:https > 192.168.14.187:19022 PA / Raw
+Source IP: 142.251.42.99
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19022
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 180
+Time: 2024-06-03 12:58:40
+Length: 430
+Info: Ether / IP / TCP 142.251.42.99:https > 192.168.14.187:19022 PA / Raw
+Source IP: 142.251.42.99
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19022
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 181
+Time: 2024-06-03 12:58:40
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:19022 > 142.251.42.99:https A
+Source IP: 192.168.14.187
+Destination IP: 142.251.42.99
+Source Port: 19022
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 182
+Time: 2024-06-03 12:58:40
+Length: 128
+Info: Ether / IP / TCP 192.168.14.187:19022 > 142.251.42.99:https PA / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.251.42.99
+Source Port: 19022
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 183
+Time: 2024-06-03 12:58:40
+Length: 54
+Info: Ether / IP / TCP 142.251.42.99:https > 192.168.14.187:19022 A
+Source IP: 142.251.42.99
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19022
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 184
+Time: 2024-06-03 12:58:40
+Length: 1018
+Info: Ether / IP / TCP 142.251.42.99:https > 192.168.14.187:19022 PA / Raw
+Source IP: 142.251.42.99
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 19022
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 185
+Time: 2024-06-03 12:58:40
+Length: 54
+Info: Ether / IP / TCP 192.168.14.187:19022 > 142.251.42.99:https A
+Source IP: 192.168.14.187
+Destination IP: 142.251.42.99
+Source Port: 19022
+Destination Port: 443
+Protocol: TCP
+Data: 
+==================================================================================
+Packet Number: 186
+Time: 2024-06-03 12:58:41
+Length: 80
+Info: Ether / IP / UDP / DNS Qry "b'beacons.gcp.gvt2.com.'" 
+Source IP: 192.168.14.187
+Destination IP: 192.168.14.185
+Source Port: 54746
+Destination Port: 53
+Protocol: UDP
+Data: beacons.gcp.gvt2.com.
+==================================================================================
+Packet Number: 187
+Time: 2024-06-03 12:58:41
+Length: 80
+Info: Ether / IP / UDP / DNS Qry "b'beacons.gcp.gvt2.com.'" 
+Source IP: 192.168.14.187
+Destination IP: 192.168.14.185
+Source Port: 51731
+Destination Port: 53
+Protocol: UDP
+Data: beacons.gcp.gvt2.com.
+==================================================================================
+Packet Number: 188
+Time: 2024-06-03 12:58:41
+Length: 126
+Info: Ether / IP / UDP / DNS Ans "b'beacons-handoff.gcp.gvt2.com.'" 
+Source IP: 192.168.14.185
+Destination IP: 192.168.14.187
+Source Port: 53
+Destination Port: 54746
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 189
+Time: 2024-06-03 12:58:41
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:63712 > 142.250.182.35:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.182.35
+Source Port: 63712
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 190
+Time: 2024-06-03 12:58:41
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:63712 > 142.250.182.35:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.182.35
+Source Port: 63712
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 191
+Time: 2024-06-03 12:58:41
+Length: 121
+Info: Ether / IP / UDP 192.168.14.187:63712 > 142.250.182.35:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.182.35
+Source Port: 63712
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 192
+Time: 2024-06-03 12:58:41
+Length: 193
+Info: Ether / IP / UDP / DNS Ans "b'beacons-handoff.gcp.gvt2.com.'" 
+Source IP: 192.168.14.185
+Destination IP: 192.168.14.187
+Source Port: 53
+Destination Port: 51731
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 193
+Time: 2024-06-03 12:58:41
+Length: 221
+Info: Ether / IP / ICMP / IPerror / UDPerror / DNS Ans "b'beacons-handoff.gcp.gvt2.com.'" 
+Source IP: 192.168.14.187
+Destination IP: 192.168.14.185
+Source Port: None
+Destination Port: None
+Protocol: Unknown
+Data: 
+==================================================================================
+Packet Number: 194
+Time: 2024-06-03 12:58:41
+Length: 1292
+Info: Ether / IP / UDP 142.250.182.35:https > 192.168.14.187:63712 / Raw
+Source IP: 142.250.182.35
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 63712
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 195
+Time: 2024-06-03 12:58:41
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:63712 > 142.250.182.35:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.182.35
+Source Port: 63712
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 196
+Time: 2024-06-03 12:58:41
+Length: 1292
+Info: Ether / IP / UDP 142.250.182.35:https > 192.168.14.187:63712 / Raw
+Source IP: 142.250.182.35
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 63712
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 197
+Time: 2024-06-03 12:58:41
+Length: 347
+Info: Ether / IP / UDP 142.250.182.35:https > 192.168.14.187:63712 / Raw
+Source IP: 142.250.182.35
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 63712
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 198
+Time: 2024-06-03 12:58:41
+Length: 987
+Info: Ether / IP / UDP 142.250.182.35:https > 192.168.14.187:63712 / Raw
+Source IP: 142.250.182.35
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 63712
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 199
+Time: 2024-06-03 12:58:41
+Length: 74
+Info: Ether / IP / UDP 142.250.182.35:https > 192.168.14.187:63712 / Raw
+Source IP: 142.250.182.35
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 63712
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 200
+Time: 2024-06-03 12:58:41
+Length: 66
+Info: Ether / IP / UDP 142.250.182.35:https > 192.168.14.187:63712 / Raw
+Source IP: 142.250.182.35
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 63712
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 201
+Time: 2024-06-03 12:58:41
+Length: 1292
+Info: Ether / IP / UDP 192.168.14.187:63712 > 142.250.182.35:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.182.35
+Source Port: 63712
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 202
+Time: 2024-06-03 12:58:41
+Length: 73
+Info: Ether / IP / UDP 192.168.14.187:63712 > 142.250.182.35:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.182.35
+Source Port: 63712
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 203
+Time: 2024-06-03 12:58:41
+Length: 1241
+Info: Ether / IP / UDP 192.168.14.187:63712 > 142.250.182.35:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.182.35
+Source Port: 63712
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 204
+Time: 2024-06-03 12:58:41
+Length: 1292
+Info: Ether / IP / UDP 142.250.182.35:https > 192.168.14.187:63712 / Raw
+Source IP: 142.250.182.35
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 63712
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 205
+Time: 2024-06-03 12:58:41
+Length: 162
+Info: Ether / IP / UDP 142.250.182.35:https > 192.168.14.187:63712 / Raw
+Source IP: 142.250.182.35
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 63712
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 206
+Time: 2024-06-03 12:58:41
+Length: 71
+Info: Ether / IP / UDP 142.250.182.35:https > 192.168.14.187:63712 / Raw
+Source IP: 142.250.182.35
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 63712
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 207
+Time: 2024-06-03 12:58:41
+Length: 76
+Info: Ether / IP / UDP 192.168.14.187:63712 > 142.250.182.35:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.182.35
+Source Port: 63712
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 208
+Time: 2024-06-03 12:58:41
+Length: 75
+Info: Ether / IP / UDP 192.168.14.187:63712 > 142.250.182.35:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.182.35
+Source Port: 63712
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 209
+Time: 2024-06-03 12:58:42
+Length: 71
+Info: Ether / IP / UDP 192.168.14.187:63712 > 142.250.182.35:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.182.35
+Source Port: 63712
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 210
+Time: 2024-06-03 12:58:42
+Length: 943
+Info: Ether / IP / UDP 142.250.182.35:https > 192.168.14.187:63712 / Raw
+Source IP: 142.250.182.35
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 63712
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 211
+Time: 2024-06-03 12:58:42
+Length: 63
+Info: Ether / IP / UDP 142.250.182.35:https > 192.168.14.187:63712 / Raw
+Source IP: 142.250.182.35
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 63712
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 212
+Time: 2024-06-03 12:58:42
+Length: 79
+Info: Ether / IP / UDP 192.168.14.187:63712 > 142.250.182.35:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.182.35
+Source Port: 63712
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 213
+Time: 2024-06-03 12:58:42
+Length: 75
+Info: Ether / IP / UDP 192.168.14.187:63712 > 142.250.182.35:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.182.35
+Source Port: 63712
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 214
+Time: 2024-06-03 12:58:42
+Length: 66
+Info: Ether / IP / UDP 142.250.182.35:https > 192.168.14.187:63712 / Raw
+Source IP: 142.250.182.35
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 63712
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 215
+Time: 2024-06-03 12:58:42
+Length: 943
+Info: Ether / IP / UDP 142.250.182.35:https > 192.168.14.187:63712 / Raw
+Source IP: 142.250.182.35
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 63712
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 216
+Time: 2024-06-03 12:58:42
+Length: 75
+Info: Ether / IP / UDP 192.168.14.187:63712 > 142.250.182.35:https / Raw
+Source IP: 192.168.14.187
+Destination IP: 142.250.182.35
+Source Port: 63712
+Destination Port: 443
+Protocol: UDP
+Data: 
+==================================================================================
+Packet Number: 217
+Time: 2024-06-03 12:58:42
+Length: 66
+Info: Ether / IP / UDP 142.250.182.35:https > 192.168.14.187:63712 / Raw
+Source IP: 142.250.182.35
+Destination IP: 192.168.14.187
+Source Port: 443
+Destination Port: 63712
+Protocol: UDP
+Data: 
+==================================================================================
+
+
+
+==================================================================================
+                              Detected Credentials:
+==================================================================================
+Packet Number: 135
+Time: 2024-06-03 12:58:34
+Length: 208
+Info: Ether / IP / TCP 192.168.14.187:19014 > 23.201.47.168:http PA / Raw
+Source IP: 192.168.14.187
+Destination IP: 23.201.47.168
+Source Port: 19014
+Destination Port: 80
+Protocol: TCP
+Raw Data: GET /connecttest.txt HTTP/1.1
+Cache-Control: no-cache
+Connection: Close
+Pragma: no-cache
+User-Agent: Microsoft NCSI
+Host: www.msftconnecttest.com
+
+
+==============================================================================
