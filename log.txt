@@ -51141,3 +51141,1874 @@ Key.alt_l
 Key.tab
 Key.ctrl_l
 
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-242-608
+127.0.0.1 - - [03/Jun/2024 19:06:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:22] "[36mGET /static/images/network_scanner.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 19:06:22] "[36mGET /static/images/packet_sniffer.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 19:06:23] "[36mGET /static/images/redirect.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 19:06:23] "[36mGET /static/images/ip_tracker.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 19:06:23] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 19:06:23] "[36mGET /static/images/hacking-web-applications.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 19:06:23] "[36mGET /static/images/vuln-scanning.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 19:06:23] "[36mGET /static/images/keylogger.jpeg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [03/Jun/2024 19:06:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:06:25] "GET /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:25] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:06:32] "POST /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:06:39] "GET /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:39] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:06:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:06:43] "GET /packet_sniffer HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:43] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:43] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:06:44] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:45] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:45] "GET /select_interface/Wi-Fi HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:47] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:48] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:49] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:50] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:51] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:52] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:53] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:54] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:55] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:56] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:58] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:06:59] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:00] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:01] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:03] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:04] "GET /start_capture HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:05] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:07] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:07] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:08] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:11] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:11] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:13] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:14] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:17] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:17] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:19] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:20] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:22] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:23] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:24] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:26] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:28] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:29] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:30] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:31] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:33] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:35] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:36] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:38] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:39] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:40] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:42] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:44] "GET /stop_capture HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:07:45] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:45] "GET /stop_capture HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:49] "GET /clear_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:49] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:52] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:53] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:55] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:57] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:07:59] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:01] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:03] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:05] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:07] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:09] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:11] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:13] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:15] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:17] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:19] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:21] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:23] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:25] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:27] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:29] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:31] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:33] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:35] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:37] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:39] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:41] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:43] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:45] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:47] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:49] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:51] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:53] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:55] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:57] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:08:59] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:01] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:03] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:05] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:07] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:09] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:11] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:13] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:15] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:17] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:19] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:21] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:23] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:25] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:27] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:29] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:31] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:33] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:35] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:37] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:39] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:41] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:43] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:45] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:47] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:49] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:51] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:53] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:55] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:57] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:09:59] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:01] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:03] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:05] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:07] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:09] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:11] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:13] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:15] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:17] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:19] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:21] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:23] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:25] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:27] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:29] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:31] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:33] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:35] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:37] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:39] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:41] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:43] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:45] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:47] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:49] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:51] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:53] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:55] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:57] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:10:59] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:01] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:03] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:05] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:07] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:09] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:11] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:13] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:15] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:17] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:19] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:21] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:23] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:25] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:27] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:29] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:31] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:33] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:35] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:37] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:39] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:41] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:43] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:45] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:47] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:49] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:51] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:53] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:55] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:57] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:11:59] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:01] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:03] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:05] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:07] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:09] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:11] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:13] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:15] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:17] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:19] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:21] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:23] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:25] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:27] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:29] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:31] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:33] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:35] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:37] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:39] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:41] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:43] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:45] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:47] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:49] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:51] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:53] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:55] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:57] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:12:59] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:01] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:03] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:05] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:07] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:09] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:11] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:13] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:15] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:17] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:19] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:21] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:23] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:25] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:27] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:29] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:31] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:33] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:35] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:37] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:39] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:41] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:43] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:45] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:47] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:49] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:51] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:53] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:55] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:57] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:13:59] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:01] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:03] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:05] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:07] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:09] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:11] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:12] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:13] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:14:15] "GET /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:14:17] "POST /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:18] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:14:20] "POST /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:20] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:14:26] "POST /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:14:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:14:29] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:14:30] "GET /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:14:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:14:33] "GET /packet_sniffer HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:33] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:14:34] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:35] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:35] "GET /select_interface/Wi-Fi HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:36] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:37] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:38] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:39] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:40] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:42] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:43] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:43] "GET /stop_capture HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:44] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:46] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:14:47] "GET /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:14:51] "GET /start_capture HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:14:56] "GET /packet_sniffer HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:56] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:14:58] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:14:59] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:00] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:01] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:03] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:04] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:05] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:06] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:07] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:08] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:09] "GET /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:15:10] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:12] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:14] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:16] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:17] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:18] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:20] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:22] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:24] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:25] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:27] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:29] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:30] "POST /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:15:31] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:33] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:35] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:37] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:38] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:42] "GET /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:42] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:15:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:15:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:15:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:15:47] "GET /packet_sniffer HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:47] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Jun/2024 19:15:48] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:49] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:50] "GET /stop_capture HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:51] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:52] "GET /clear_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:53] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:54] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jun/2024 19:15:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-242-608
+127.0.0.1 - - [04/Jun/2024 11:14:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:14:58] "[36mGET /static/images/network_scanner.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:14:58] "[36mGET /static/images/packet_sniffer.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:14:58] "[36mGET /static/images/redirect.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:14:58] "[36mGET /static/images/ip_tracker.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:14:58] "[36mGET /static/images/keylogger.jpeg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:14:58] "[36mGET /static/images/hacking-web-applications.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:14:58] "[36mGET /static/images/vuln-scanning.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:14:58] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:14:59] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:15:41] "GET /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:15:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:15:45] "POST /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:15:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:16:18] "GET /network_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:18] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:16:20] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:16:21] "GET /packet_sniffer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:21] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:21] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:16:22] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:23] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:24] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:24] "GET /select_interface/Wi-Fi HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:26] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:27] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:28] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:29] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:30] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:31] "GET /start_capture HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:32] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:33] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:33] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:35] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:37] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:37] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:39] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:41] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:41] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:43] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:43] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:45] "GET /select_interface/Wi-Fi HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:46] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:46] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:56] "GET /stop_capture HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:58] "GET /stop_capture HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:58] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:16:58] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:01] "GET /clear_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:01] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:02] "GET /clear_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:02] "GET /clear_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:02] "GET /clear_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:02] "GET /clear_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:02] "GET /clear_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:02] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:12] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:13] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:13] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:14] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:14] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:15] "GET /select_interface/Wi-Fi HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:16] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:16] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:17] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:17] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:18] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:18] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:19] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:20] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:21] "GET /start_capture HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:21] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:21] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:22] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:22] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:24] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:26] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:26] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:27] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:30] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:30] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:31] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:33] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:34] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:35] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:37] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:37] "GET /captured_packets HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:39] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:17:40] "GET /redirect_url_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:40] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Starting new HTTPS connection (1): www.amazon.in:443
+https://www.amazon.in:443 "GET / HTTP/1.1" 503 None
+127.0.0.1 - - [04/Jun/2024 11:17:44] "POST /redirect_url_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:17:46] "GET /redirect_url_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:17:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Starting new HTTPS connection (1): www.amazon.in:443
+https://www.amazon.in:443 "GET / HTTP/1.1" 503 None
+127.0.0.1 - - [04/Jun/2024 11:18:36] "POST /redirect_url_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:18:36] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:19:15] "GET /redirect_url_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:19:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:19:16] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:19:17] "GET /ip_tracker HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:19:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Starting new HTTP connection (1): ip-api.com:80
+http://ip-api.com:80 "GET /json/172.168.1.2 HTTP/1.1" 200 309
+127.0.0.1 - - [04/Jun/2024 11:19:21] "POST /ip_tracker HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:19:21] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:19:27] "GET /ip_tracker HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:19:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Starting new HTTP connection (1): ip-api.com:80
+http://ip-api.com:80 "GET /json/172.168.1.2 HTTP/1.1" 200 309
+127.0.0.1 - - [04/Jun/2024 11:19:47] "POST /ip_tracker HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:19:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:19:58] "GET /ip_tracker HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:19:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:19:59] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:20:00] "GET /malware HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:20:01] "GET /socket.io/?EIO=4&transport=polling&t=O_Xp1lF HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:20:01] "POST /socket.io/?EIO=4&transport=polling&t=O_Xp1lO&sid=VoCDIIO_8wDR1u7WAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:20:01] "GET /socket.io/?EIO=4&transport=polling&t=O_Xp1lQ&sid=VoCDIIO_8wDR1u7WAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:20:01] "GET /socket.io/?EIO=4&transport=polling&t=O_Xp1lZ&sid=VoCDIIO_8wDR1u7WAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:20:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+q
+w
+e
+r
+t
+y
+u
+i
+o
+p
+Key.cmd
+Key.caps_lock
+s
+Key.cmd
+Key.shift
+S
+Key.alt_l
+Key.tab
+Key.ctrl_l
+
+Key.enter
+Key.ctrl_l
+Key.ctrl_l
+
+Key.shift
+Key.cmd
+Key.cmd
+V
+Key.shift
+Key.alt_l
+Key.alt_l
+Key.alt_l
+V
+Key.alt_l
+v
+Key.shift
+Key.cmd
+Key.alt_l
+v
+Key.ctrl_l
+Key.shift
+
+Key.cmd
+v
+Key.ctrl_l
+
+Key.alt_l
+Key.tab
+127.0.0.1 - - [04/Jun/2024 11:21:19] "GET /socket.io/?EIO=4&transport=websocket&sid=VoCDIIO_8wDR1u7WAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:21:19] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:21:23] "GET /web_application_hacking HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:21:23] "[36mGET /static/css/web_application_hacking.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:21:23] "[36mGET /static/css/col.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:21:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET / HTTP/1.1" 200 None
+127.0.0.1 - - [04/Jun/2024 11:21:27] "POST /web_application_hacking HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:21:27] "[36mGET /static/css/web_application_hacking.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:21:27] "[36mGET /static/css/col.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:21:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Key.cmd
+Key.shift
+S
+Key.alt_l
+Key.tab
+Key.ctrl_l
+
+Key.enter
+Key.alt_l
+Key.tab
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.bash_history HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.bashrc HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.cache HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.config HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.cvs HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.cvsignore HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.forward HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.git/HEAD HTTP/1.1" 404 1565
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.history HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.hta HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.htaccess HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.htpasswd HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.listing HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.listings HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.mysql_history HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.passwd HTTP/1.1" 404 1561
+Starting new HTTPS connection (1): www.google.com:443
+https://www.google.com:443 "GET //.perf HTTP/1.1" 404 1561
+127.0.0.1 - - [04/Jun/2024 11:22:41] "POST /web_application_hacking HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:22:41] "[36mGET /static/css/web_application_hacking.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:22:41] "[36mGET /static/css/col.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:22:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Key.cmd
+Key.shift
+S
+Key.alt_l
+Key.tab
+Key.ctrl_l
+
+Key.alt_l
+Key.tab
+127.0.0.1 - - [04/Jun/2024 11:24:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:24:33] "GET /web_application_hacking HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:24:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:24:34] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:24:38] "GET /web_application_hacking HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:24:38] "[36mGET /static/css/web_application_hacking.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:24:38] "[36mGET /static/css/col.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:24:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:24:39] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 11:24:40] "GET /vulnerability_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 11:24:40] "[36mGET /static/css/sqlinjection.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:24:40] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 11:24:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Key.ctrl_l
+
+Key.alt_l
+Key.tab
+Key.alt_l
+Key.alt_l
+Key.tab
+Key.tab
+c
+h
+t
+Key.backspace
+a
+t
+g
+p
+t
+Key.enter
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.ctrl_l
+
+Key.esc
+Key.ctrl_l
+
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+
+e
+x
+p
+l
+i
+n
+Key.space
+Key.backspace
+Key.backspace
+Key.backspace
+a
+i
+n
+Key.space
+t
+h
+e
+Key.space
+a
+b
+o
+v
+e
+Key.space
+i
+m
+a
+g
+e
+Key.space
+a
+c
+c
+Key.backspace
+c
+o
+r
+d
+i
+n
+g
+Key.space
+t
+Key.backspace
+o
+Key.space
+t
+e
+Key.space
+m
+e
+t
+h
+o
+d
+o
+o
+g
+y
+Key.space
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+l
+o
+g
+y
+Key.space
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+t
+Key.right
+Key.right
+Key.right
+h
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.left
+Key.left
+Key.right
+Key.right
+o
+f
+Key.space
+Key.ctrl_l
+
+Key.ctrl_l
+
+.
+Key.space
+a
+Key.backspace
+Key.backspace
+m
+a
+k
+e
+Key.space
+t
+h
+Key.space
+s
+e
+n
+e
+Key.backspace
+t
+e
+n
+c
+e
+Key.space
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+e
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+s
+t
+r
+a
+Key.backspace
+Key.backspace
+a
+r
+t
+Key.space
+l
+i
+k
+e
+Key.space
+Key.shift
+"
+i
+n
+Key.space
+t
+h
+i
+s
+Key.space
+i
+m
+a
+g
+e
+Key.shift
+Key.shift
+Key.shift
+"
+Key.up
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.down
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+i
+n
+Key.space
+a
+Key.space
+p
+a
+r
+a
+g
+r
+a
+p
+h
+Key.space
+o
+f
+Key.space
+7
+5
+Key.space
+w
+o
+r
+d
+s
+Key.enter
+Key.ctrl_l
+
+Key.ctrl_l
+
+Key.caps_lock
+t
+Key.caps_lock
+h
+e
+Key.backspace
+Key.backspace
+Key.backspace
+Key.right
+Key.backspace
+Key.caps_lock
+t
+Key.caps_lock
+h
+Key.backspace
+Key.backspace
+t
+Key.caps_lock
+h
+e
+Key.space
+i
+a
+g
+e
+Key.space
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+m
+a
+h
+Key.backspace
+d
+Key.backspace
+g
+e
+Key.space
+d
+e
+p
+i
+c
+t
+s
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+f
+i
+g
+u
+r
+e
+Key.down
+Key.down
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+f
+i
+g
+u
+r
+e
+Key.esc
+Key.enter
+Key.right
+Key.right
+Key.left
+Key.right
+Key.ctrl_l
+
+Key.ctrl_l
+
+Key.right
+Key.ctrl_l
+
+Key.ctrl_l
+
+None
+c
+h
+g
+p
+t
+Key.enter
+h
+a
+t
+g
+p
+t
+Key.enter
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+
+Key.left
+Key.ctrl_l
+
+Key.ctrl_l
+
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+Key.ctrl_l
+
+Key.right
+Key.ctrl_l
+
+Key.esc
+Key.ctrl_l
+
+Key.ctrl_l
+
+Key.ctrl_l
+
+Key.ctrl_l
+
+i
+p
+Key.space
+t
+r
+a
+c
+k
+e
+r
+Key.backspace
+m
+o
+d
+i
+f
+y
+Key.space
+t
+h
+e
+Key.space
+a
+b
+o
+v
+e
+Key.space
+p
+a
+r
+a
+g
+r
+p
+a
+Key.backspace
+Key.backspace
+a
+p
+h
+Key.space
+s
+t
+a
+r
+t
+i
+n
+g
+Key.space
+a
+s
+Key.space
+Key.shift
+"
+t
+i
+d
+Key.backspace
+Key.backspace
+h
+i
+d
+Key.backspace
+s
+Key.space
+d
+e
+p
+i
+c
+t
+s
+Key.enter
+Key.ctrl_l
+
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+f
+i
+u
+t
+Key.backspace
+r
+e
+Key.left
+Key.left
+Key.left
+g
+Key.down
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.left
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+f
+i
+g
+u
+r
+e
+Key.enter
+Key.left
+Key.left
+Key.left
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+4
+Key.space
+g
+b
+Key.space
+1
+Key.caps_lock
+r
+x
+1
+6
+Key.space
+p
+c
+4
+Key.space
+Key.right
+Key.right
+Key.right
+Key.left
+Key.right
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+None
+Key.backspace
+None
+None
+Key.backspace
+Key.backspace
+None
+Key.enter
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.enter
+Key.f5
+x
+x
+None
+None
+None
+f
+Key.caps_lock
+a
+Key.backspace
+Key.caps_lock
+a
+c
+Key.space
+Key.space
+r
+a
+m
+Key.space
+Key.media_volume_down
+Key.media_volume_down
+Key.media_volume_down
+Key.media_volume_down
+Key.media_volume_down
+Key.media_volume_down
+Key.media_volume_down
+Key.media_volume_down
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.space
+Key.right
+Key.space
+Key.left
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+Key.left
+None
+Key.right
+Key.right
+Key.right
+Key.left
+Key.space
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+Key.right
+None
+127.0.0.1 - - [04/Jun/2024 12:16:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:16:55] "[36mGET /static/images/packet_sniffer.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:16:55] "[36mGET /static/images/network_scanner.png HTTP/1.1[0m" 304 -
+None
++
+127.0.0.1 - - [04/Jun/2024 12:16:55] "[36mGET /static/images/keylogger.jpeg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:16:55] "[36mGET /static/images/redirect.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:16:55] "[36mGET /static/images/ip_tracker.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:16:55] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:16:55] "[36mGET /static/images/hacking-web-applications.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:16:55] "[36mGET /static/images/vuln-scanning.png HTTP/1.1[0m" 304 -
+None
+Key.backspace
+c
+y
+b
+e
+r
+Key.space
+Key.caps_lock
+Key.space
+None
+k
+Key.enter
+v
+Key.space
+u
+Key.backspace
+Key.backspace
+u
+l
+n
+-
+b
+a
+c
+k
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+v
+i
+Key.tab
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+v
+a
+Key.backspace
+Key.backspace
+Key.ctrl_l
+
+Key.ctrl_l
+
+Key.alt_l
+Key.tab
+Key.alt_l
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+b
+a
+c
+k
+Key.tab
+Key.alt_l
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.tab
+Key.alt_l
+Key.tab
+Key.tab
+Key.alt_l
+Key.tab
+Key.tab
+Key.alt_l
+Key.tab
+Key.tab
+Key.tab
+Key.f5
+127.0.0.1 - - [04/Jun/2024 12:21:42] "GET /vulnerability_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:21:42] "[36mGET /static/css/sqlinjection.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:21:43] "[36mGET /static/images/hero.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:21:43] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 12:21:44] "GET /apiendipoint HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:21:44] "GET /static/css/apiendpoint.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:21:44] "GET /static/images/vuln-back.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:21:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Key.alt_l
+Key.tab
+Key.alt_l
+Key.tab
+Key.alt_l
+Key.tab
+Key.tab
+Key.ctrl_l
+
+Key.ctrl_l
+
+c
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.ctrl_l
+
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.ctrl_l
+
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.ctrl_l
+
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.ctrl_l
+
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.ctrl_l
+Key.backspace
+Key.ctrl_l
+
+Key.right
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.ctrl_l
+
+Key.alt_l
+Key.tab
+127.0.0.1 - - [04/Jun/2024 12:23:00] "GET /apiendipoint HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:00] "GET /static/css/apiendpoint.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:00] "[33mGET /static/images/c HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Jun/2024 12:23:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Key.f5
+127.0.0.1 - - [04/Jun/2024 12:23:02] "GET /apiendipoint HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:02] "[36mGET /static/css/apiendpoint.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:03] "[33mGET /static/images/c HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Jun/2024 12:23:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Key.f5
+127.0.0.1 - - [04/Jun/2024 12:23:03] "GET /apiendipoint HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:03] "[36mGET /static/css/apiendpoint.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Key.f5
+Key.f5
+127.0.0.1 - - [04/Jun/2024 12:23:03] "GET /apiendipoint HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:03] "[36mGET /static/css/apiendpoint.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 12:23:05] "GET /apiendipoint HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:05] "[36mGET /static/css/apiendpoint.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:05] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 12:23:06] "GET /openredirect HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:06] "GET /static/css/openredirect.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:06] "[36mGET /static/images/vuln-back.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:06] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 12:23:07] "GET /vulnerability_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:07] "GET /static/css/sqlinjection.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:08] "[36mGET /static/images/vuln-back.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:08] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 12:23:09] "GET /tls HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:09] "GET /static/css/tls.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:09] "[36mGET /static/images/vuln-back.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:09] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 12:23:10] "GET /securityheaders HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:10] "GET /static/css/securityheaders.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:10] "[36mGET /static/images/vuln-back.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 12:23:11] "GET /securitymisconfig HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:12] "GET /static/css/securitymisconfig.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:12] "[36mGET /static/images/vuln-back.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:12] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 12:23:12] "GET /apiendipoint HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:12] "[36mGET /static/css/apiendpoint.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Key.alt_l
+Key.tab
+Key.backspace
+Key.ctrl_l
+
+Key.alt_l
+Key.tab
+Key.f5
+127.0.0.1 - - [04/Jun/2024 12:23:20] "GET /apiendipoint HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:20] "GET /static/css/apiendpoint.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:20] "[36mGET /static/images/vuln-back.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:20] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 12:23:22] "GET /apiendipoint HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:22] "[36mGET /static/css/apiendpoint.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:22] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 12:23:23] "GET /openredirect HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:23] "[36mGET /static/css/openredirect.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:23] "[36mGET /static/images/vuln-back.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 12:23:24] "GET /vulnerability_scanner HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:24] "[36mGET /static/css/sqlinjection.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:24] "[36mGET /static/images/vuln-back.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:24] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 12:23:25] "GET /tls HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:26] "[36mGET /static/css/tls.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:26] "[36mGET /static/images/vuln-back.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 12:23:26] "GET /securityheaders HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:27] "[36mGET /static/css/securityheaders.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:27] "[36mGET /static/images/vuln-back.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Jun/2024 12:23:28] "GET /securitymisconfig HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024 12:23:28] "[36mGET /static/css/securitymisconfig.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:28] "[36mGET /static/images/vuln-back.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Jun/2024 12:23:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+Key.ctrl_l
+
+Key.ctrl_l
+
+Key.ctrl_l
+

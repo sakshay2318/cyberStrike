@@ -11,7 +11,7 @@ html{
 
 body{
     height: 100vh;
-    background-image: url('/static/images/hero.jpg');
+    background-image: url('/static/images/vuln-back.jpg');
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
