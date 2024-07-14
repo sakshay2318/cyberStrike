@@ -7,7 +7,7 @@ from datetime import datetime
 import re
 from bs4 import BeautifulSoup
 import requests
-from sqlinjection import scan_sql_injection
+# from sqlinjection import scan_sql_injection
 from urllib.parse import unquote
 from apiendpoint import analyze_endpoints
 from openredirect import is_open_redirect
@@ -343,20 +343,20 @@ def web_application_hacking():
             return render_template('web_application_hacking.html', links=links)
     return render_template('web_application_hacking.html')
 
-@app.route('/vulnerability_scanner')
-def vulnerability_scanner():
-    return render_template('vulnerability_scanner.html')
+# @app.route('/vulnerability_scanner')
+# def vulnerability_scanner():
+#     return render_template('vulnerability_scanner.html')
 
-@app.route('/getinputsql', methods=['POST'])
-def getinput():
-    if request.method == 'POST':
-        user_input = request.form.get('url')
-        if user_input:
-            user_input = unquote(user_input.replace('%22', ''))
-            resultforms = scan_sql_injection(user_input)
-            return render_template('vulnerability_scanner.html', result1=resultforms) 
-        else:
-            return "NO INPUT RECEIVED", 404
+# @app.route('/getinputsql', methods=['POST'])
+# def getinput():
+#     if request.method == 'POST':
+#         user_input = request.form.get('url')
+#         if user_input:
+#             user_input = unquote(user_input.replace('%22', ''))
+#             resultforms = scan_sql_injection(user_input)
+#             return render_template('vulnerability_scanner.html', result1=resultforms)
+#         else:
+#             return "NO INPUT RECEIVED", 404
         
 @app.route('/apiendipoint')
 def apiendipoint():
